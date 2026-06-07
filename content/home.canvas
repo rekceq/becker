@@ -1,7 +1,6 @@
 {
 	"nodes":[
-		{"id":"12f2de3883dae4d3","type":"text","text":"![[Pasted image 20260607181508.png]]","x":-120,"y":-220,"width":250,"height":170},
-		{"id":"d5e493e76208c314","x":-73,"y":-640,"width":406,"height":296,"type":"text","text":"![](https://github.com/rekceq/becker/blob/v5/content/exportedHTML/becker.html)"}
+		{"id":"3f34eb8be09be7e3","x":5,"y":-740,"width":195,"height":220,"type":"text","text":"![](https://rekceq.github.io/becker/filedump/pasted-image-20260607185220.png)"}
 	],
 	"edges":[]
 }
