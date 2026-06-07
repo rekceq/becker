@@ -1,0 +1,1 @@
+![[kakuji_logo_big.png|379]]

@@ -1,9 +1,9 @@
 {
 	"nodes":[
-		{"id":"0d208b857e2e6acc","x":-300,"y":607,"width":400,"height":400,"type":"file","file":"content/rawFILES/kakuji_logo_big.png"},
 		{"id":"b5c69fd64abd11d9","type":"link","url":"https://rekceq.github.io/becker/test-note","x":-290,"y":-38,"width":870,"height":398},
-		{"id":"d4ead177356d9785","type":"text","text":"Some text.","x":-171,"y":410,"width":250,"height":60,"color":"#ff0000"},
-		{"id":"66a1dded275742a9","type":"file","file":"public/tags/index-og-image.webp","x":200,"y":470,"width":400,"height":210}
+		{"id":"2f104ec8d91e780b","type":"file","file":"content/Untitled.md","x":-290,"y":-740,"width":400,"height":400},
+		{"id":"d0cf861a8846b23b","type":"file","file":"content/rawFILES/kakuji_logo_big.png","x":145,"y":-715,"width":400,"height":400},
+		{"id":"b8b8d0ed59a6bd31","type":"link","url":"http://localhost:8080/rawfiles/kakuji_logo_big.png","x":-880,"y":-515,"width":369,"height":380}
 	],
 	"edges":[]
 }
