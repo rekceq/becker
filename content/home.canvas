@@ -1,9 +1,4 @@
 {
-	"nodes":[
-		{"id":"b5c69fd64abd11d9","type":"link","url":"https://rekceq.github.io/becker/test-note","x":-290,"y":-38,"width":870,"height":398},
-		{"id":"2f104ec8d91e780b","type":"file","file":"content/Untitled.md","x":-290,"y":-740,"width":400,"height":400},
-		{"id":"d0cf861a8846b23b","type":"file","file":"content/rawFILES/kakuji_logo_big.png","x":145,"y":-715,"width":400,"height":400},
-		{"id":"b8b8d0ed59a6bd31","type":"link","url":"http://localhost:8080/rawfiles/kakuji_logo_big.png","x":-880,"y":-515,"width":369,"height":380}
-	],
+	"nodes":[],
 	"edges":[]
 }
