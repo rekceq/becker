@@ -31,7 +31,7 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#fff23688"
       darkMode:
-        light: "#00005550" # background
+        light: "#00005590" # background
         lightgray: "#00005500" #button highlights / panel lines
         gray: "#5500aa" # box standard text / graph highlighted lines
         darkgray: "#aaaaff" # paragraphs / icons / highlighted code
@@ -148,17 +148,20 @@ plugins:
     layout:
       position: left
       priority: 50
+      display: desktop-only
   - source: github:quartz-community/graph
     enabled: true
     layout:
       position: right
       priority: 10
+      display: mobile-only
   - source: github:quartz-community/search
     enabled: true
     layout:
       position: left
       priority: 20
       group: toolbar
+      display: desktop-only
       groupOptions:
         grow: true
   - source: github:quartz-community/backlinks
@@ -214,6 +217,8 @@ plugins:
       priority: 10
   - source: github:quartz-community/footer
     enabled: true
+    layout:
+      display: desktop-only
     options:
       links:
         GitHub: https://github.com/jackyzha0/quartz

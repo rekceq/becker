@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"3e2adc45448bd39a","type":"link","url":"http://localhost:8080","x":-320,"y":180,"width":800,"height":580}
+		{"id":"ffc6ff6247aeed94","x":-700,"y":-320,"width":620,"height":780,"type":"link","url":"http://localhost:8080"}
 	],
 	"edges":[]
 }
