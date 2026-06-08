@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"3f34eb8be09be7e3","x":5,"y":-740,"width":195,"height":220,"type":"text","text":"![](https://rekceq.github.io/becker/filedump/pasted-image-20260607185220.png)"}
+		{"id":"3f34eb8be09be7e3","type":"text","text":"![](https://rekceq.github.io/becker/filedump/pasted-image-20260607185220.png)\n","x":-160,"y":-1080,"width":260,"height":260}
 	],
 	"edges":[]
 }

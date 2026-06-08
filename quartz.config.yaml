@@ -21,7 +21,7 @@ configuration:
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
+        light: "#faf8f8" # background
         lightgray: "#e5e5e5"
         gray: "#b8b8b8"
         darkgray: "#4e4e4e"
@@ -31,13 +31,13 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#fff23688"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
+        light: "#000000" # background
+        lightgray: "#000055" #button highlights / panel lines
+        gray: "#5500aa" # box standard text / graph highlighted lines
+        darkgray: "#aaaaff" # paragraphs / icons / highlighted code
+        dark: "#aaaaff" # titles / explorer links / code text
+        secondary: "#ffaaff" #tags / links / active graph node
+        tertiary: "#ff0055" #active explorer tabs / targeted links / graph tags
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
