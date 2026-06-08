@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"3791a7171951ea7f","x":-220,"y":-155,"width":240,"height":275,"type":"text","text":"![](content/fileDUMP/logo.png)"}
+		{"id":"3e2adc45448bd39a","type":"link","url":"http://localhost:8080","x":-320,"y":180,"width":800,"height":580}
 	],
 	"edges":[]
 }

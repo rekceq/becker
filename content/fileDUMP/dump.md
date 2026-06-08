@@ -1,1 +1,0 @@
-![[content/fileDUMP/logo.png]]

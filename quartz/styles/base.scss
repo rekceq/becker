@@ -47,7 +47,7 @@ ul,
 .typst-doc,
 g[class~="typst-text"] {
   color: var(--darkgray);
-  fill: var(--light);
+  fill: var(--darkgray);
   overflow-wrap: break-word;
   text-wrap: pretty;
 }
@@ -155,7 +155,7 @@ a {
     &.flex-component {
       display: flex;
     }
-    display: contents;
+    display: none;
   }
 }
 
