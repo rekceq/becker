@@ -31,8 +31,8 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#fff23688"
       darkMode:
-        light: "#000000" # background
-        lightgray: "#000055" #button highlights / panel lines
+        light: "#00005550" # background
+        lightgray: "#00005500" #button highlights / panel lines
         gray: "#5500aa" # box standard text / graph highlighted lines
         darkgray: "#aaaaff" # paragraphs / icons / highlighted code
         dark: "#aaaaff" # titles / explorer links / code text
