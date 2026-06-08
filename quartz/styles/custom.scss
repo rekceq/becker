@@ -1,3 +1,6 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+.canvas-node-container:has(.tag[href="#todo"]) {
+  background-color: #d1ecf1;
+}

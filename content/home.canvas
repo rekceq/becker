@@ -1,8 +1,7 @@
 {
 	"nodes":[
-		{"id":"044b5cd0914dcf21","x":-1141,"y":282,"width":400,"height":400,"type":"link","url":"https://search.nixos.org/packages?channel=25.11&query=node#show=nodejs_24"},
-		{"id":"ffc6ff6247aeed94","type":"link","url":"http://localhost:8080","x":-700,"y":-320,"width":620,"height":780},
-		{"id":"68fbdb64c7628208","x":-1300,"y":-220,"width":400,"height":400,"type":"link","url":"https://store.steampowered.com"}
+		{"id":"d94ad42481e19a06","type":"text","text":"","x":-102,"y":4960,"width":842,"height":805},
+		{"id":"8ff5cfc4a206aba0","type":"link","url":"http://localhost:8080","x":-102,"y":-3680,"width":780,"height":790}
 	],
 	"edges":[]
 }
