@@ -13,17 +13,55 @@
 .canvas-node-content,
 .container-clipped,
 .markdown-rendered {
+  overscroll-behavior: contain;
   &::-webkit-scrollbar {
     display: none; /* Chrome/Safari */
   }
-  
+
   -ms-overflow-style: none; /* IE/Edge */
   scrollbar-width: none; /* Firefox */
   overflow: hidden; // Hides both axes
 
 }
+.canvas-node-content {
+  margin-top: -64px;
+  margin-left: -32px;
+  margin-right: -32px;
+  margin-bottom: 0px;
+}
 
 
+
+// /* Remove padding and margins for the rendered markdown embed in canvas nodes */
+// .canvas-node-content.markdown-embed > .markdown-embed-content > .markdown-preview-view {
+//     padding: 0px !important;
+//     margin: 0px !important;
+//     margin-top: -48px;
+// }
+
+// /* Remove default padding from images and markdown embeds inside the canvas */
+// .markdown-preview-view.canvasimage,
+// .canvas-node-container {
+//     padding: 0px !important;
+//     margin: 0px !important;
+// }
+
+// // /* Adjust the inner editor's margins when in Edit mode for canvas cards */
+// // .node-insert-event.mod-inside-iframe .cm-editor .cm-content {
+// //     margin-left: -24px;
+// //     margin-right: -26px;
+    
+// // }
+
+// /* Hide dark mode images when the site is in light mode */
+// [data-theme="light"] .dark-mode-img {
+//   display: none;
+// }
+
+// /* Hide light mode images when the site is in dark mode */
+// [data-theme="dark"] .light-mode-img {
+//   display: none;
+// }
 
 // Target the Quartz Explorer component folder and file links
 .explorer {
@@ -43,6 +81,8 @@
 }
 
 
+
+//adjust text size and alignment
 p {
   font-size: 1.2rem; /* Adjusts standard note body text */
   text-align: justify;
