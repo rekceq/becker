@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: rekceq.github.io/becker/
+  baseUrl: rekceq.github.io/becker/HOME.canvas
   ignorePatterns:
     - private
     - templates
@@ -183,6 +183,9 @@ plugins:
       priority: 10
   - source: github:quartz-community/content-meta
     enabled: true
+    options:
+      showReadingTime: false
+      showConma: false
     layout:
       position: beforeBody
       priority: 20

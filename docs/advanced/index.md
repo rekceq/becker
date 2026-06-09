@@ -1,5 +1,5 @@
 ---
-title: "Advanced"
+title: Advanced
 ---
 
 This section covers advanced topics for users who want to extend or deeply customize Quartz.
