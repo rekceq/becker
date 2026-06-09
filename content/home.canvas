@@ -1,8 +1,8 @@
 {
 	"nodes":[
-		{"id":"21402156e4fc6bf9","type":"text","text":"![](http://localhost:8080/filepile/kakuji_logo.png)\n","x":-397,"y":18,"width":157,"height":202},
-		{"id":"fb047a8a4341158b","x":-397,"y":240,"width":477,"height":400,"type":"link","url":"http://localhost:8080/testfolder/test"},
-		{"id":"672cf79cb5d418ae","x":-220,"y":18,"width":300,"height":202,"type":"link","url":"http://localhost:8080/pile"}
+		{"id":"21402156e4fc6bf9","type":"text","text":"[![](http://localhost:8080/filepile/kakuji_logo.png)](http://localhost:8080)\n\n","x":-200,"y":-80,"width":340,"height":440},
+		{"id":"56d2bcf00b30fea1","type":"text","text":"[![](http://localhost:8080/filepile/kakuji_logo.png)](http://localhost:8080)\n\n","x":-1360,"y":-80,"width":340,"height":440},
+		{"id":"21cf1e51052e481b","type":"text","text":"[![](http://localhost:8080/filepile/kakuji_logo.png)](http://localhost:8080)\n\n","x":920,"y":-80,"width":340,"height":440}
 	],
 	"edges":[]
 }
