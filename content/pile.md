@@ -1,1 +1,1 @@
-![](kakuji_logo.png)
+![](https://rekceq.github.io/becker/filepile/kakuji_logo.png)
