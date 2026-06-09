@@ -14,3 +14,4 @@ This page is my effort to gather all stuff I have scattered across the internet 
 $Some math.$
 
 
+![[my-visual-map.canvas]]
