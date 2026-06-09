@@ -33,7 +33,7 @@ configuration:
         textHighlight: "#fff23688"
       darkMode:
         light: "#000055" # background
-        lightgray: "#00005500" #button highlights / panel lines
+        lightgray: "#00005510" #button highlights / panel lines
         gray: "#ff0055" # box standard text / graph highlighted lines
         darkgray: "#aaaaff" # body text / icons / highlighted code
         dark: "#aaaaff" # titles / explorer links / code text
