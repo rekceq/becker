@@ -16,8 +16,8 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      title: Astloch
-      header: Astloch
+      title: Jacquarda Bastarda 9
+      header: Jacquarda Bastarda 9
       body: Space Mono
       code: Jacquarda Bastarda 9
     colors:
