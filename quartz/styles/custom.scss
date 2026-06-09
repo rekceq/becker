@@ -2,12 +2,20 @@
 
 // put your custom CSS here!
 
-body {
-  overflow: hidden;
-}
-
 // Target all canvas note cards
 .canvas-node {
   background-color: var(--highlight);
   border-radius: 8px;
+}
+
+/* Hide scrollbars on embedded canvas notes in Quartz */
+.popover.hover,
+.canvas-node-content,
+.markdown-rendered {
+  &::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+  }
+  
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none; /* Firefox */
 }
