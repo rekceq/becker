@@ -5,6 +5,18 @@
 //   background-color: #d1ecf1;
 // }
 
+// Target all canvas note cards
+.canvas-node {
+  background-color: var(--dark);
+  border-radius: 8px;
+}
+
+// Override a custom CSS class if you used it in your frontmatter
+// .custom-canvas-note {
+//   background-color: #f3f4f6;
+// }
+
+
 .popover.hover-tooltip .markdown-embed,
 .canvas-node-container .markdown-embed {
     overflow: hidden !important;

@@ -209,7 +209,7 @@ plugins:
   - source: github:quartz-community/breadcrumbs
     enabled: true
     options:
-      spacerSymbol: "𖤐"
+      spacerSymbol: "⸸"
     layout:
       position: beforeBody
       priority: 5
