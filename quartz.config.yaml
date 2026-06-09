@@ -16,7 +16,8 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Astloch
+      title: Astloch
+      header: Jacquarda Bastarda 9
       body: Source Code Pro
       code: Jacquarda Bastarda 9
     colors:
@@ -152,7 +153,7 @@ plugins:
       folderDefaultState: open
     layout:
       position: left
-      priority: 1000
+      priority: 50
       # display: desktop-only
   - source: github:quartz-community/graph
     enabled: true
