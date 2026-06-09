@@ -16,7 +16,7 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Jacquarda Bastarda 9 Charted
+      header: Jacquarda Bastarda 9
       body: Source Sans Pro
       code: IBM Plex Mono
     colors:
