@@ -1,28 +1,13 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
-// .canvas-node-container:has(.tag[href="#todo"]) {
-//   background-color: #d1ecf1;
-// }
+
+body {
+  overflow: hidden;
+}
 
 // Target all canvas note cards
 .canvas-node {
-  background-color: var(--dark);
+  background-color: var(--highlight);
   border-radius: 8px;
-}
-
-// Override a custom CSS class if you used it in your frontmatter
-// .custom-canvas-note {
-//   background-color: #f3f4f6;
-// }
-
-
-.popover.hover-tooltip .markdown-embed,
-.canvas-node-container .markdown-embed {
-    overflow: hidden !important;
-}
-
-.canvas-node-container .markdown-embed-content {
-    max-height: 100% !important;
-    overflow-y: hidden !important;
 }

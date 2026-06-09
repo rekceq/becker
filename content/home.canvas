@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"21402156e4fc6bf9","type":"text","text":"![](http://localhost:8080/filepile/kakuji_logo.png)\n","x":-397,"y":18,"width":237,"height":262}
+		{"id":"21402156e4fc6bf9","type":"text","text":"![](http://localhost:8080/filepile/kakuji_logo.png)\n","x":-397,"y":18,"width":157,"height":182}
 	],
 	"edges":[]
 }
