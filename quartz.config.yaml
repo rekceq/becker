@@ -16,9 +16,9 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Jacquarda Bastarda 9
-      body: Source Sans Pro
-      code: IBM Plex Mono
+      header: Astloch
+      body: Source Code Pro
+      code: Jacquarda Bastarda 9
     colors:
       lightMode:
         light: "#faf8f8" # background
@@ -152,7 +152,7 @@ plugins:
       folderDefaultState: open
     layout:
       position: left
-      priority: 50
+      priority: 1000
       # display: desktop-only
   - source: github:quartz-community/graph
     enabled: true
