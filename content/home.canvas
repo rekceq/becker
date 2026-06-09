@@ -1,8 +1,7 @@
 {
 	"nodes":[
 		{"id":"21402156e4fc6bf9","type":"text","text":"[![](http://localhost:8080/filepile/kakuji_logo.png)](http://localhost:8080)\n\n","x":-200,"y":-80,"width":340,"height":440},
-		{"id":"56d2bcf00b30fea1","type":"text","text":"[![](http://localhost:8080/filepile/kakuji_logo.png)](http://localhost:8080)\n\n","x":-1360,"y":-80,"width":340,"height":440},
-		{"id":"21cf1e51052e481b","type":"text","text":"[![](http://localhost:8080/filepile/kakuji_logo.png)](http://localhost:8080)\n\n","x":920,"y":-80,"width":340,"height":440}
+		{"id":"ce0df22ad342c2ae","x":-860,"y":-40,"width":640,"height":360,"type":"link","url":"https://www.youtube.com/live/dgyNDN0Ex-k?si=DklyIvfU7DeyZprF"}
 	],
 	"edges":[]
 }

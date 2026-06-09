@@ -1,7 +1,6 @@
 ---
-title:
+title: Bernardo Becker
 tags:
-  - test
 ---
 %%<meta http-equiv="refresh" content="0; url='/home.canvas'" />%%
 
