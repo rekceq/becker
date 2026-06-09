@@ -35,12 +35,12 @@ configuration:
         light: "#000055" # background
         lightgray: "#000055" #button highlights / panel lines
         gray: "#ff0055" # box standard text / graph highlighted lines
-        darkgray: "#aaaaff" # paragraphs / icons / highlighted code
+        darkgray: "#aaaaff" # body text / icons / highlighted code
         dark: "#aaaaff" # titles / explorer links / code text
-        secondary: "#ff55ff" #tags / links / active graph node / explore folders
+        secondary: "#aa55ff" #tags / links / active graph node / explore folders
         tertiary: "#ff0055" #active explorer tabs / targeted links / graph tags
         highlight: rgba(143, 159, 169, 0)
-        textHighlight: "#b3aa0288"
+        textHighlight: "#555555"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
@@ -149,6 +149,7 @@ plugins:
   - source: github:quartz-community/explorer
     enabled: true
     options:
+      title: ""
       folderClickBehavior: collapse
       folderDefaultState: open
     layout:
