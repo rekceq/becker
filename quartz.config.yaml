@@ -18,8 +18,8 @@ configuration:
     typography:
       title: Astloch
       header: Astloch
-      body: Space Mono
-      code: Jacquarda Bastarda 9
+      body: Jetbrains Mono
+      code: Jetbrains Mono
     colors:
       lightMode:
         light: "#faf8f8" # background
@@ -33,14 +33,14 @@ configuration:
         textHighlight: "#fff23688"
       darkMode:
         light: "#000055" # background
-        lightgray: "#00005525" #button highlights / panel lines
+        lightgray: "#00007025" #button highlights / panel lines
         gray: "#5500ff" # search text / graph highlighted lines
         darkgray: "#aaaaff" # body text / icons / highlighted code
         dark: "#aaaaff" # titles / explorer links / code text
         secondary: "#aa55ff" #tags / links / active graph node / explore folders
         tertiary: "#ff0055" #active explorer tabs / targeted links / graph tags
         highlight: rgba(143, 159, 169, 0)
-        textHighlight: "#555555"
+        textHighlight: "#000055"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
@@ -161,7 +161,7 @@ plugins:
     layout:
       position: right
       priority: 10
-      display: mobile-only
+      #display: mobile-only
   - source: github:quartz-community/search
     enabled: true
     layout:

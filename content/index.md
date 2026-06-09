@@ -1,5 +1,5 @@
 ---
-title: Bernardo Becker Macedo
+title: Bernardo Becker
 tags:
 date: 1988-10-19
 ---
@@ -7,11 +7,16 @@ date: 1988-10-19
 
 This page is my effort to gather all stuff I have scattered across the internet so I don't lose them as I already lost a lot .
 
-`Some code`
+```
+if (template && template !== "default") {
+createConfigFromTemplate(template)
+console.log(styleText("green", `Created quartz.config.yaml from '${template}' template`))
+} else {
+createConfigFromTemplate("default")
+console.log(styleText("green", "Created quartz.config.yaml from defaults"))
+}
+```
 
 %% Some Comment%%
 
 $Some math.$
-
-
-![[my-visual-map.canvas]]
