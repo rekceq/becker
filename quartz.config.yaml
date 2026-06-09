@@ -37,7 +37,7 @@ configuration:
         gray: "#ff0055" # box standard text / graph highlighted lines
         darkgray: "#aaaaff" # paragraphs / icons / highlighted code
         dark: "#aaaaff" # titles / explorer links / code text
-        secondary: "#aa00ff" #tags / links / active graph node / explore folders
+        secondary: "#ff55ff" #tags / links / active graph node / explore folders
         tertiary: "#ff0055" #active explorer tabs / targeted links / graph tags
         highlight: rgba(143, 159, 169, 0)
         textHighlight: "#b3aa0288"
