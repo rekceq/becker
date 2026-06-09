@@ -20,7 +20,7 @@ See [[plugins/Breadcrumbs]] for detailed usage information.
 
 This plugin accepts the following configuration options:
 
-- `spacerSymbol`: The symbol to use between breadcrumb items. Defaults to `"❯"`.
+- `spacerSymbol`: The symbol to use between breadcrumb items. Defaults to `"𖤐"`.
 - `rootName`: The name of the root page. Defaults to `Home`.
 - `resolveFrontmatterTitle`: Whether to use the `title` frontmatter field for breadcrumb items. Defaults to `true`.
 - `showCurrentPage`: Whether to show the current page in the breadcrumb trail. Defaults to `true`.
