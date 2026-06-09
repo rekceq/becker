@@ -1,7 +1,6 @@
 {
 	"nodes":[
-		{"id":"21402156e4fc6bf9","type":"text","text":"[![](http://localhost:8080/filepile/kakuji_logo.png)](http://localhost:8080)\n\n","x":-200,"y":-80,"width":340,"height":440},
-		{"id":"ce0df22ad342c2ae","x":-860,"y":-40,"width":640,"height":360,"type":"link","url":"https://www.youtube.com/live/dgyNDN0Ex-k?si=DklyIvfU7DeyZprF"}
+		{"id":"21402156e4fc6bf9","type":"text","text":"[![](http://localhost:8080/filepile/kakuji_logo.png)](https://rekceq.github.io/becker/filepile/kakuji_logo.png)","x":-200,"y":-80,"width":340,"height":420}
 	],
 	"edges":[]
 }
