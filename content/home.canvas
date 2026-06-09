@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"21402156e4fc6bf9","type":"text","text":"[![](http://localhost:8080/filepile/kakuji_logo.png)](https://rekceq.github.io/becker/)","x":-200,"y":-80,"width":340,"height":420}
+		{"id":"21402156e4fc6bf9","type":"text","text":"[![](http://localhost:8080/filepile/kakuji_logo.png)](https://rekceq.github.io/becker/)","x":-240,"y":-100,"width":340,"height":420}
 	],
 	"edges":[]
 }

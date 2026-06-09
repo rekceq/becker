@@ -11,6 +11,7 @@
 /* Hide scrollbars on embedded canvas notes in Quartz */
 .popover.hover,
 .canvas-node-content,
+.container-clipped,
 .markdown-rendered {
   &::-webkit-scrollbar {
     display: none; /* Chrome/Safari */
@@ -18,20 +19,29 @@
   
   -ms-overflow-style: none; /* IE/Edge */
   scrollbar-width: none; /* Firefox */
+  overflow: hidden; // Hides both axes
+
+}
+
+// Target the Quartz Explorer component folder and file links
+.explorer {
+  .folder-outer, 
+  .folder-container,
+  button, 
+  a {
+    font-family: var(--bodyFont);
+  }
 }
 
 p {
-  font-size: 1.2rem; /* Adjusts standard note body text */
+  font-size: 1.1rem; /* Adjusts standard note body text */
+  text-align: justify;
 }
 
 h1 {
-  font-size: 3rem; /* Adjusts top-level header text */
+  font-size: 2.4rem; /* Adjusts top-level header text */
 }
 
 h2 {
-  font-size: 2rem; /* Adjusts second-level header text */
-}
-
-h5 {
-  font-size: 5rem; /* Adjusts second-level header text */
+  font-size: 2.4rem; /* Adjusts second-level header text */
 }
