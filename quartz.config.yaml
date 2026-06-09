@@ -33,7 +33,7 @@ configuration:
         textHighlight: "#fff23688"
       darkMode:
         light: "#000055" # background
-        lightgray: "#000055" #button highlights / panel lines
+        lightgray: "#00005500" #button highlights / panel lines
         gray: "#ff0055" # box standard text / graph highlighted lines
         darkgray: "#aaaaff" # body text / icons / highlighted code
         dark: "#aaaaff" # titles / explorer links / code text
@@ -149,7 +149,7 @@ plugins:
   - source: github:quartz-community/explorer
     enabled: true
     options:
-      title: ""
+      title: "Pile"
       folderClickBehavior: collapse
       folderDefaultState: open
     layout:
@@ -230,8 +230,8 @@ plugins:
       display: desktop-only
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        #GitHub: https://github.com/jackyzha0/quartz
+        #Discord Community: https://discord.gg/cRFFHYye7t
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer

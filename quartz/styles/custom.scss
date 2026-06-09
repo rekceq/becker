@@ -23,8 +23,11 @@
 
 }
 
+
+
 // Target the Quartz Explorer component folder and file links
 .explorer {
+  .folder,
   .folder-outer, 
   .folder-container,
   button, 
@@ -33,8 +36,15 @@
   }
 }
 
+.explorer {
+  .title-button {
+    display: none;
+  }
+}
+
+
 p {
-  font-size: 1.15rem; /* Adjusts standard note body text */
+  font-size: 1.1rem; /* Adjusts standard note body text */
   text-align: justify;
 }
 
