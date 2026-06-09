@@ -3,7 +3,7 @@ title:
 tags:
   - test
 ---
-
+%%<meta http-equiv="refresh" content="0; url='/home.canvas'" />%%
 
 
 [[gamedev/|Gamedev]] Generalist & Bricoleur. Currently working to finish a game before I turn 40. I have a lot of half baked  [[gamedev/game projects/]]  I made to learn to code interactive graphics and some [[gamedev/tools & plugins/]] I developed in the process, most made in the [Game Maker Engine](https://gamemaker.io/). That led me to dab into [[pixel art]] to supply my projects with somewhat cheap [[gamedev/graphics/]] so I could do most stuff by myself. I started drawing in the awesome [Graphics Gale](https://graphicsgale.com) software but quickly migrated to [Aseprite](https://www.aseprite.org/) as I got better and craving for decent animation tools. Someday I want to learn some audio design and music production too. 

@@ -1,6 +1,16 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
-.canvas-node-container:has(.tag[href="#todo"]) {
-  background-color: #d1ecf1;
+// .canvas-node-container:has(.tag[href="#todo"]) {
+//   background-color: #d1ecf1;
+// }
+
+.popover.hover-tooltip .markdown-embed,
+.canvas-node-container .markdown-embed {
+    overflow: hidden !important;
+}
+
+.canvas-node-container .markdown-embed-content {
+    max-height: 100% !important;
+    overflow-y: hidden !important;
 }

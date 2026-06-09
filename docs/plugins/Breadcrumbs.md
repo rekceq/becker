@@ -31,7 +31,7 @@ This plugin accepts the following configuration options:
 - source: github:quartz-community/breadcrumbs
   enabled: true
   options:
-    spacerSymbol: "❯"
+    spacerSymbol: "𖤐"
     rootName: Home
     resolveFrontmatterTitle: true
     showCurrentPage: true

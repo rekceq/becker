@@ -135,8 +135,9 @@ plugins:
   - source: github:quartz-community/canvas-page
     enabled: true
     options:
-      minZoom: 1
-      maxZoom: 1
+      initialZoom: 0
+      minZoom: 0
+      maxZoom: 0
       # enableInteraction: false
   - source: github:quartz-community/content-page
     enabled: true
@@ -189,7 +190,7 @@ plugins:
       position: beforeBody
       priority: 30
   - source: github:quartz-community/page-title
-    enabled: false
+    enabled: true
     layout:
       position: left
       priority: 10
@@ -270,8 +271,8 @@ layout:
         beforeBody: []
         left: []
         right: []
-    content: #{}
-      template: full-width
+    content: {}
+      # template: full-width
       # positions:
       #   beforeBody: [ArticleTitle, ContentMeta, TagList]
       #   left: [] # Leave empty or only include other components (like Breadcrumbs) to remove the Explorer

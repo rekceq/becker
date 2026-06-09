@@ -1,7 +1,6 @@
 {
 	"nodes":[
-		{"id":"d94ad42481e19a06","type":"text","text":"","x":-102,"y":4960,"width":842,"height":805},
-		{"id":"8ff5cfc4a206aba0","type":"link","url":"http://localhost:8080","x":-102,"y":-3680,"width":780,"height":790}
+		{"id":"21402156e4fc6bf9","type":"text","text":"![](http://localhost:8080/filepile/kakuji_logo.png)\n","x":-397,"y":18,"width":237,"height":262}
 	],
 	"edges":[]
 }

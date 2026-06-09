@@ -22,7 +22,7 @@ plugins:
   - source: github:quartz-community/breadcrumbs
     enabled: true
     options:
-      spacerSymbol: "❯"
+      spacerSymbol: "𖤐"
       rootName: Home
       resolveFrontmatterTitle: true
       showCurrentPage: true
@@ -36,7 +36,7 @@ For the TS override approach:
 ```ts title="quartz.ts (override)"
 // Must be placed before loadQuartzConfig()
 ExternalPlugin.Breadcrumbs({
-  spacerSymbol: "❯",
+  spacerSymbol: "𖤐",
   rootName: "Home",
   resolveFrontmatterTitle: true,
   showCurrentPage: true,
