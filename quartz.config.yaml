@@ -42,6 +42,8 @@ configuration:
         highlight: rgba(143, 159, 169, 0)
         textHighlight: "#000055"
 plugins:
+  - source: github:quartz-community/assets # or similar core Assets alias
+    enabled: true
   - source: github:quartz-community/created-modified-date
     enabled: true
     options:
