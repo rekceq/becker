@@ -1,6 +1,11 @@
 {
 	"nodes":[
-		{"id":"21402156e4fc6bf9","type":"text","text":"[![](https://rekceq.github.io/becker/filepile/kakuji_logo.png)](https://rekceq.github.io/becker/)\n\n","x":-289,"y":-100,"width":269,"height":280}
+		{"id":"9ece0a62826469d8","type":"text","text":"[![](https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_dark.png?raw=true)](https://rekceq.github.io/becker/)\n\n","x":-740,"y":-100,"width":380,"height":400},
+		{"id":"1429e67c7d9ad296","x":-340,"y":-100,"width":680,"height":400,"type":"text","text":"<iframe id=\"ytplayer\" type=\"text/html\" width=\"640\" height=\"360\"\n  src=\"https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&origin=http://example.com\"\n  frameborder=\"0\"></iframe>"},
+		{"id":"ecc22339f0153259","x":-740,"y":320,"width":1080,"height":520,"type":"link","url":"https://rekceq.github.io/becker/"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"6e1ce226f58468e2","fromNode":"ecc22339f0153259","fromSide":"right","toNode":"1429e67c7d9ad296","toSide":"right"},
+		{"id":"742b2ea9804d8a45","fromNode":"9ece0a62826469d8","fromSide":"top","toNode":"ecc22339f0153259","toSide":"left"}
+	]
 }
