@@ -102,13 +102,18 @@ code {
 }
 
 
-//blend logo
-.image-wrapper {
-  background-color: #0004ff; /* Your blend color */
-  display: inline-block;
-}
+// //blend logo
+// .image-wrapper {
+//   background-color: #0004ff; /* Your blend color */
+//   display: inline-block;
+// }
 
-.image-wrapper img {
-  display: block;
-  mix-blend-mode: multiply; /* Try other modes: overlay, screen, color */
+// .image-wrapper img {
+//   display: block;
+//   mix-blend-mode: multiply; /* Try other modes: overlay, screen, color */
+// }
+
+.image-overlay {
+  background-color: color-mix(in srgb, red 30%, transparent);
+  mix-blend-mode: alpha;
 }
