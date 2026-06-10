@@ -8,13 +8,13 @@ function updateThemeImages() {
 
   images.forEach((img) => {
     // Get the base path without the -light or -dark suffix
-    const baseSrc = img.dataset.baseSrc || img.src.split('-')[0]
+    const baseSrc = img.dataset.baseSrc || img.src.split('_')[0]
     if (!img.dataset.baseSrc) img.dataset.baseSrc = baseSrc // Cache it
 
       if (isDark) {
-        img.src = `${baseSrc}-dark.png`
+        img.src = `${baseSrc}_dark.png`
       } else {
-        img.src = `${baseSrc}-light.png`
+        img.src = `${baseSrc}_light.png`
       }
   })
 }
