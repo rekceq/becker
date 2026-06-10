@@ -1,7 +1,8 @@
 {
 	"nodes":[
 		{"id":"ecc22339f0153259","type":"link","url":"https://rekceq.github.io/becker/","x":-740,"y":320,"width":1080,"height":520},
-		{"id":"9ece0a62826469d8","type":"text","text":"[![](https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_dark.png?raw=true)](https://rekceq.github.io/becker/)\n\n","x":-740,"y":-100,"width":380,"height":380}
+		{"id":"9ece0a62826469d8","type":"text","text":"[![](https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_dark.png?raw=true)](https://rekceq.github.io/becker/)\n\n","x":-740,"y":-100,"width":380,"height":380},
+		{"id":"f91223cacaa3a66c","x":-340,"y":-100,"width":680,"height":380,"type":"text","text":"![](https://rekceq.github.io/becker/file_pile/luci_pizza_cube.mp4)"}
 	],
 	"edges":[]
 }
