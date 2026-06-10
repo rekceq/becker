@@ -11,8 +11,7 @@
 /* Hide scrollbars on embedded canvas notes in Quartz */
 .popover.hover,
 .canvas-node-content,
-.container-clipped,
-.markdown-rendered {
+.container-clipped, {
   overscroll-behavior: contain;
   &::-webkit-scrollbar {
     display: none; /* Chrome/Safari */
