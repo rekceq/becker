@@ -12,9 +12,9 @@ function updateThemeImages() {
     if (!img.dataset.baseSrc) img.dataset.baseSrc = baseSrc // Cache it
 
       if (isDark) {
-        img.src = `${baseSrc}_dark.png`
+        img.src = `${baseSrc}logo_dark.png`
       } else {
-        img.src = `${baseSrc}_light.png`
+        img.src = `${baseSrc}logo_light.png`
       }
   })
 }
@@ -23,6 +23,7 @@ function updateThemeImages() {
 document.addEventListener("DOMContentLoaded", updateThemeImages)
 
 // 2. Listen for Quartz 5 custom nav events (for SPA page transitions)
+document.addEventListener("nav", updateThemeImages)
 document.addEventListener("render", updateThemeImages)
 
 // 3. Listen for theme toggles
