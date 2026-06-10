@@ -106,3 +106,11 @@ code {
   /* This exact combination transforms black into a vibrant blue/cyan */
   filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(185deg) brightness(101%) contrast(101%);
 }
+
+.themed_logo {
+  content: url('kakuji_logo_light.png');
+}
+
+html[data-theme="dark"] .my-custom-image {
+  content: url('kakuji_logo_light.png');
+}
