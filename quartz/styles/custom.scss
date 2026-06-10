@@ -113,12 +113,14 @@ code {
 //   mix-blend-mode: multiply; /* Try other modes: overlay, screen, color */
 // }
 
-.image-overlay img {
-  // background-color: color-mix(in srgb, red 30%, transparent);
-  // mix-blend-mode: color;
+.image-overlay {
+  background-color: color-mix(in srgb, red 30%, transparent);
+  mix-blend-mode: color;
+}
 
+.page .content img {
   // Define a cor de fundo do "filtro" usando a cor secundária do tema
-  background-color: var(--secondary); 
+  background-color: var(--dark); 
   
   // O segredo do tinting: mescla os tons de cinza/iluminação da imagem com a cor de fundo
   mix-blend-mode: multiply; 
@@ -126,7 +128,3 @@ code {
   // Garante uma boa renderização visual
   filter: brightness(1.1) contrast(0.9);
 }
-
-// .page .content img {
-
-// }
