@@ -23,7 +23,7 @@ function updateThemeImages() {
 document.addEventListener("DOMContentLoaded", updateThemeImages)
 
 // 2. Listen for Quartz 5 custom nav events (for SPA page transitions)
-document.addEventListener("nav", updateThemeImages)
+document.addEventListener("render", updateThemeImages)
 
 // 3. Listen for theme toggles
 const darkmodeSwitch = document.querySelector("#darkmode-switch")

@@ -114,14 +114,17 @@ code {
 //   }
 // }
 
-.recolor-png {
-  content: url('https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_dark.png?raw=true');
-}
+// .recolor-png {
+//   content: url('https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_dark.png?raw=true');
+// }
 
-html[data-theme="dark"] .recolor-png {
-  content: url('https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_light.png?raw=true');
-}
+// html[data-theme="dark"] .recolor-png {
+//   content: url('https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_light.png?raw=true');
+// }
 
+// .themed_logo{
+//   filter: brightness(0) invert(1);
+// }
 // .my-custom-image {
 //   background-color: var(--light); /* Light mode variable */
 
