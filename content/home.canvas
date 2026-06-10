@@ -1,11 +1,10 @@
 {
 	"nodes":[
 		{"id":"9ece0a62826469d8","type":"text","text":"[![](https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_dark.png?raw=true)](https://rekceq.github.io/becker/)\n\n","x":-740,"y":-100,"width":380,"height":400},
-		{"id":"1429e67c7d9ad296","x":-340,"y":-100,"width":680,"height":400,"type":"text","text":"<iframe id=\"ytplayer\" type=\"text/html\" width=\"640\" height=\"360\"\n  src=\"https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&origin=http://example.com\"\n  frameborder=\"0\"></iframe>"},
-		{"id":"ecc22339f0153259","x":-740,"y":320,"width":1080,"height":520,"type":"link","url":"https://rekceq.github.io/becker/"}
+		{"id":"ecc22339f0153259","type":"link","url":"https://rekceq.github.io/becker/","x":-740,"y":320,"width":1080,"height":520},
+		{"id":"52caa9fac8133b67","type":"text","text":"![](<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/PvUPDSDZg1k?si=V-hzWY1tto93pEbR\" title=\"YouTube video player\" frameborder=\"0\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>)\n","x":-340,"y":-100,"width":680,"height":400}
 	],
 	"edges":[
-		{"id":"6e1ce226f58468e2","fromNode":"ecc22339f0153259","fromSide":"right","toNode":"1429e67c7d9ad296","toSide":"right"},
 		{"id":"742b2ea9804d8a45","fromNode":"9ece0a62826469d8","fromSide":"top","toNode":"ecc22339f0153259","toSide":"left"}
 	]
 }
