@@ -122,13 +122,28 @@ code {
 //   content: url('https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_light.png?raw=true');
 // }
 
-// .themed_logo{
-//   filter: brightness(0) invert(1);
-// }
+.themed_logo{
+  filter: brightness(0) invert(1);
+}
+
 // .my-custom-image {
 //   background-color: var(--light); /* Light mode variable */
 
 //   html[data-theme="dark"] & {
 //     background-color: var(--dark); /* Dark mode variable */
+//   }
+// }
+
+// // Target the container of your image (e.g., a specific div or class)
+// .your-image-class {
+//   background-image: url('../static/light-image.png');
+//   background-size: contain;
+//   background-repeat: no-repeat;
+//   width: 300px; 
+//   height: 200px;
+
+//   // Change the image when the dark mode theme is active
+//   html[data-theme="dark"] & {
+//     background-image: url('../static/dark-image.png');
 //   }
 // }
