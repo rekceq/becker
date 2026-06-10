@@ -1,8 +1,8 @@
 {
 	"nodes":[
-		{"id":"ecc22339f0153259","type":"link","url":"https://rekceq.github.io/becker/","x":-740,"y":320,"width":1080,"height":520},
+		{"id":"ecc22339f0153259","type":"link","url":"https://rekceq.github.io/becker/","x":-740,"y":320,"width":780,"height":1140},
 		{"id":"9ece0a62826469d8","type":"text","text":"[![](https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_dark.png?raw=true)](https://rekceq.github.io/becker/)\n\n","x":-740,"y":-100,"width":380,"height":380},
-		{"id":"f91223cacaa3a66c","type":"text","text":"![](luci_pizza_cube.mp4)","x":-340,"y":-100,"width":680,"height":740}
+		{"id":"34020efbf01a0369","x":-340,"y":-100,"width":380,"height":380,"type":"file","file":"content/file_pile/critter_chicken.gif"}
 	],
 	"edges":[]
 }
