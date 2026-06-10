@@ -101,30 +101,8 @@ code {
   font-size: 1rem; /* Adjusts code text */
 }
 
-
-// //blend logo
-// .image-wrapper {
-//   background-color: #0004ff; /* Your blend color */
-//   display: inline-block;
-// }
-
-// .image-wrapper img {
-//   display: block;
-//   mix-blend-mode: multiply; /* Try other modes: overlay, screen, color */
-// }
-
-.image-overlay {
-  background-color: color-mix(in srgb, red 30%, transparent);
-  mix-blend-mode: color;
-}
-
-.page .content img {
-  // Define a cor de fundo do "filtro" usando a cor secundária do tema
-  background-color: var(--dark); 
-  
-  // O segredo do tinting: mescla os tons de cinza/iluminação da imagem com a cor de fundo
-  mix-blend-mode: multiply; 
-  
-  // Garante uma boa renderização visual
-  filter: brightness(1.1) contrast(0.9);
+/* Turns a black or dark icon into a custom color */
+.recolor-png {
+  /* This exact combination transforms black into a vibrant blue/cyan */
+  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(185deg) brightness(101%) contrast(101%);
 }
