@@ -102,15 +102,30 @@ code {
 }
 
 /* Turns a black or dark icon into a custom color */
+// .recolor-png {
+//   /* This exact combination transforms black into a vibrant blue/cyan */
+//   filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(185deg) brightness(101%) contrast(101%);
+// }
+
+// .my-custom-image {
+//   /* In dark mode, invert the black/white colors of the PNG */
+//   html[data-theme="dark"] & {
+//     filter: invert(1);
+//   }
+// }
+
 .recolor-png {
-  /* This exact combination transforms black into a vibrant blue/cyan */
-  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(185deg) brightness(101%) contrast(101%);
+  content: url('https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_dark.png?raw=true');
 }
 
-.themed_logo {
-  content: url('kakuji_logo_light.png');
+html[data-theme="dark"] .recolor-png {
+  content: url('https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_light.png?raw=true');
 }
 
-html[data-theme="dark"] .my-custom-image {
-  content: url('kakuji_logo_light.png');
-}
+// .my-custom-image {
+//   background-color: var(--light); /* Light mode variable */
+
+//   html[data-theme="dark"] & {
+//     background-color: var(--dark); /* Dark mode variable */
+//   }
+// }
