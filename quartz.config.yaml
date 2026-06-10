@@ -168,7 +168,7 @@ plugins:
       position: left
       priority: 20
       group: toolbar
-      display: desktop-only
+      # display: desktop-only
       groupOptions:
         grow: true
   - source: github:quartz-community/backlinks
