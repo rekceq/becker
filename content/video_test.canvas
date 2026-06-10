@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"92c0ef6e047230d8","type":"link","url":"https://www.youtube.com/watch?v=NZfIxeK463o","x":-327,"y":-121,"width":640,"height":360},
+		{"id":"7b9b89cb639862e8","type":"file","file":"content/video_test.html","x":-305,"y":420,"width":618,"height":400},
+		{"id":"43efe6da13684f1d","x":-1140,"y":112,"width":760,"height":428,"type":"text","text":"![](https://www.youtube.com/watch?v=NZfIxeK463o)\n![]()"}
+	],
+	"edges":[]
+}
