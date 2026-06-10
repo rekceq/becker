@@ -100,3 +100,15 @@ h2 {
 code {
   font-size: 1rem; /* Adjusts code text */
 }
+
+
+//blend logo
+.image-wrapper {
+  background-color: #0004ff; /* Your blend color */
+  display: inline-block;
+}
+
+.image-wrapper img {
+  display: block;
+  mix-blend-mode: multiply; /* Try other modes: overlay, screen, color */
+}
