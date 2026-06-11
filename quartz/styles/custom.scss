@@ -95,11 +95,7 @@ html[data-theme="dark"] .themed_logo {
 }
 
 /* Prevent unwanted cursor/selection states while panning the canvas */
-.page-canvas {
-    user-select: none;
-    -webkit-user-select: none;
-}
 
-.canvas-container {
-  touch-action: pan-y pan-x;
-}
+// .canvas-container {
+//   touch-action: pan-y pan-x;
+// }
