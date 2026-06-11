@@ -1,7 +1,6 @@
 {
 	"nodes":[
-		{"id":"9ece0a62826469d8","type":"text","text":"[![](https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_dark.png?raw=true)](https://www.rekceq.net)\n\n\n","x":-1480,"y":140,"width":240,"height":360},
-		{"id":"6c8d09e74400227b","type":"text","text":"Built on top of Quartz 5.0.0","x":-1480,"y":520,"width":240,"height":60}
+		{"id":"9ece0a62826469d8","type":"text","text":"[![](https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_dark.png?raw=true)](https://www.rekceq.net)\n\n\n","x":-1480,"y":140,"width":240,"height":360}
 	],
 	"edges":[]
 }
