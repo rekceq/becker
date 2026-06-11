@@ -2,100 +2,100 @@
 
 // // put your custom CSS here!
 
-//change canvas card background fill
-.canvas-node {
-  background-color: var(--highlight);
-  border-radius: 8px;
-  //zoom: .2;
-}
-
-
-/* Hide scrollbars on embedded canvas notes in Quartz */
-.popover.hover,
-.canvas-node-content,
-.container-clipped, {
-  overscroll-behavior: contain;
-  &::-webkit-scrollbar {
-    display: none; /* Chrome/Safari */
-  }
-
-  -ms-overflow-style: none; /* IE/Edge */
-  scrollbar-width: none; /* Firefox */
-  overflow: hidden; // Hides both axes
-
-}
-.canvas-node-content {
-  margin-top: -36px;
-  //margin-left: -32px;
-  //margin-right: -32px;
-  //margin-bottom: 0px;
-}
-
-// Target the Quartz Explorer component folder and file links
-.explorer {
-  .folder,
-  .folder-outer,
-  .folder-container,
-  button,
-  a {
-    font-family: var(--bodyFont);
-  }
-}
-
-.explorer {
-  .title-button {
-    display: none;
-  }
-}
-
-//adjust text size and alignment
-p {
-  font-size: 1.2rem; /* Adjusts standard note body text */
-  text-align: justify;
-}
-
-h1 {
-  font-size: 2.6rem; /* Adjusts top-level header text */
-  //font-weight: normal;
-}
-
-h2 {
-  font-size: 2.4rem; /* Adjusts second-level header text */
-  //font-weight: normal;
-}
-
-code {
-  font-size: 1rem; /* Adjusts code text */
-}
-
-/* Default styles for Light Mode */
-.themed_logo {
-  background-color: #ffffff;
-  //color: #333333;
-}
-
-/* Styles applied only when Dark Mode is active */
-html[data-theme="dark"] .themed_logo {
-  background-color: #1a1a1a;
-  //color: #dddddd;
-}
-
-/* Swap the PNG when Dark Mode is active */
-
-// .theme-swap {
-//   content: url("https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_dark.png?raw=true");
+// //change canvas card background fill
+// .canvas-node {
+//   background-color: var(--highlight);
+//   border-radius: 8px;
+//   //zoom: .2;
 // }
 
-// [saved-theme="light"] .theme-swap {
-//   content: url("https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_light.png?raw=true");
+
+// /* Hide scrollbars on embedded canvas notes in Quartz */
+// .popover.hover,
+// .canvas-node-content,
+// .container-clipped, {
+//   overscroll-behavior: contain;
+//   &::-webkit-scrollbar {
+//     display: none; /* Chrome/Safari */
+//   }
+
+//   -ms-overflow-style: none; /* IE/Edge */
+//   scrollbar-width: none; /* Firefox */
+//   overflow: hidden; // Hides both axes
+
+// }
+// .canvas-node-content {
+//   margin-top: -36px;
+//   //margin-left: -32px;
+//   //margin-right: -32px;
+//   //margin-bottom: 0px;
 // }
 
-[saved-theme="light"] img {
-  filter: hue-rotate(250deg) sepia(48%)  saturate(37%);
-}
-
-/* Prevent unwanted cursor/selection states while panning the canvas */
-
-// .canvas-container {
-//   touch-action: pan-y pan-x;
+// // Target the Quartz Explorer component folder and file links
+// .explorer {
+//   .folder,
+//   .folder-outer,
+//   .folder-container,
+//   button,
+//   a {
+//     font-family: var(--bodyFont);
+//   }
 // }
+
+// .explorer {
+//   .title-button {
+//     display: none;
+//   }
+// }
+
+// //adjust text size and alignment
+// p {
+//   font-size: 1.2rem; /* Adjusts standard note body text */
+//   text-align: justify;
+// }
+
+// h1 {
+//   font-size: 2.6rem; /* Adjusts top-level header text */
+//   //font-weight: normal;
+// }
+
+// h2 {
+//   font-size: 2.4rem; /* Adjusts second-level header text */
+//   //font-weight: normal;
+// }
+
+// code {
+//   font-size: 1rem; /* Adjusts code text */
+// }
+
+// /* Default styles for Light Mode */
+// .themed_logo {
+//   background-color: #ffffff;
+//   //color: #333333;
+// }
+
+// /* Styles applied only when Dark Mode is active */
+// html[data-theme="dark"] .themed_logo {
+//   background-color: #1a1a1a;
+//   //color: #dddddd;
+// }
+
+// /* Swap the PNG when Dark Mode is active */
+
+// // .theme-swap {
+// //   content: url("https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_dark.png?raw=true");
+// // }
+
+// // [saved-theme="light"] .theme-swap {
+// //   content: url("https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_light.png?raw=true");
+// // }
+
+// [saved-theme="light"] img {
+//   filter: hue-rotate(250deg) sepia(48%)  saturate(37%);
+// }
+
+// /* Prevent unwanted cursor/selection states while panning the canvas */
+
+// // .canvas-container {
+// //   touch-action: pan-y pan-x;
+// // }
