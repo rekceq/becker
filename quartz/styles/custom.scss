@@ -96,6 +96,15 @@ html[data-theme="dark"] .themed_logo {
 
 /* Prevent unwanted cursor/selection states while panning the canvas */
 
-// .canvas-container {
-//   touch-action: pan-y pan-x;
-// }
+.canvas-container {
+  touch-action: pan-y pan-x;
+}
+
+@media (max-width: 600px) {
+  button, a.btn, .action-button {
+    min-height: 48px;     /* Meets Google & Apple minimum target sizes */
+    min-width: 48px;
+    padding: 4px 4px;   /* Adds comfortable internal spacing */
+    font-size: 50px;      /* Prevents auto-zooming on iOS */
+  }
+}
