@@ -82,13 +82,20 @@ html[data-theme="dark"] .themed_logo {
 
 /* Swap the PNG when Dark Mode is active */
 
-.theme-swap {
-  content: url("https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_dark.png?raw=true");
+// .theme-swap {
+//   content: url("https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_dark.png?raw=true");
+// }
+
+// [saved-theme="light"] .theme-swap {
+//   content: url("https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_light.png?raw=true");
+// }
+
+
+[saved-theme="light"] img {
+  filter: sepia(100%) hue-rotate(190deg) saturate(80%);
 }
 
-[saved-theme="light"] .theme-swap {
-  content: url("https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_light.png?raw=true");
-}
+
 
 /* Prevent unwanted cursor/selection states while panning the canvas */
 .page-canvas {
