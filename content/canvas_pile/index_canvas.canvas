@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"27cf570bf8d4a684","x":-1220,"y":60,"width":1380,"height":780,"type":"link","url":"https://rekceq.github.io/becker/"}
+		{"id":"27cf570bf8d4a684","type":"link","url":"https://rekceq.github.io/becker/","x":-940,"y":60,"width":800,"height":880}
 	],
 	"edges":[]
 }
