@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"9ece0a62826469d8","type":"text","text":"[![](https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_dark.png?raw=true)](https://www.rekceq.net)\n\n\n","x":-1480,"y":140,"width":240,"height":234}
+		{"id":"9ece0a62826469d8","type":"text","text":"[![](https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_dark.png?raw=true)](https://www.rekceq.net)\n\n\n","x":-1480,"y":140,"width":240,"height":340}
 	],
 	"edges":[]
 }

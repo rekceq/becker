@@ -122,11 +122,11 @@ plugins:
       priority: 50
       display: all
   - source: github:quartz-community/alias-redirects
+    enabled: true
     options:
       aliases:
-        "home.canvas":  # The path to your canvas file
-          - ""            # The alias you want to use
-    enabled: true
+        "home":  
+          - "index"
   - source: github:quartz-community/content-index
     enabled: true
     options:
