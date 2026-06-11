@@ -1,7 +1,7 @@
 {
 	"nodes":[
-		{"id":"9ece0a62826469d8","type":"text","text":"[![](https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_dark.png?raw=true)](https://rekceq.github.io/becker/)\n\n","x":-740,"y":-100,"width":380,"height":380},
-		{"id":"d6b995bf3092f992","type":"text","text":"[![](https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_dark.png?raw=true)](https://rekceq.github.io/becker/)\n\n","x":320,"y":400,"width":380,"height":380}
+		{"id":"bdd49f644608f9ad","x":-2180,"y":-100,"width":1960,"height":940,"color":"#000055","type":"group"},
+		{"id":"9ece0a62826469d8","type":"text","text":"[![](https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_dark.png?raw=true)](https://rekceq.github.io/becker/)\n\n","x":-1240,"y":280,"width":140,"height":140}
 	],
 	"edges":[]
 }
