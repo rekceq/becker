@@ -6,7 +6,6 @@
 .canvas-node {
   background-color: var(--highlight);
   border-radius: 8px;
-  //zoom: .2;
 }
 
 
@@ -14,7 +13,7 @@
 .popover.hover,
 .canvas-node-content,
 .container-clipped, {
-  //overscroll-behavior: contain;
+  overscroll-behavior: contain;
 
   &::-webkit-scrollbar {
     display: none; /* Chrome/Safari */
@@ -69,43 +68,6 @@ code {
   font-size: 1rem; /* Adjusts code text */
 }
 
-// /* Default styles for Light Mode */
-// .themed_logo {
-//   background-color: #ffffff;
-//   //color: #333333;
-// }
-
-// /* Styles applied only when Dark Mode is active */
-// html[data-theme="dark"] .themed_logo {
-//   background-color: #1a1a1a;
-//   //color: #dddddd;
-// }
-
-/* Swap the PNG when Dark Mode is active */
-
-// .theme-swap {
-//   content: url("https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_dark.png?raw=true");
-// }
-
-// [saved-theme="light"] .theme-swap {
-//   content: url("https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_light.png?raw=true");
-// }
-
 [saved-theme="light"] img {
   filter: hue-rotate(250deg) sepia(48%)  saturate(37%);
 }
-
-/* Prevent unwanted cursor/selection states while panning the canvas */
-
-// .canvas-container {
-//   touch-action: pan-y pan-x;
-// }
-
-// @media (max-width: 600px) {
-//   button, a.btn, .action-button {
-//     min-height: 100px;     /* Meets Google & Apple minimum target sizes */
-//     min-width: 100px;
-//     padding: 4px 4px;   /* Adds comfortable internal spacing */
-//     font-size: 100px;      /* Prevents auto-zooming on iOS */
-//   }
-// }

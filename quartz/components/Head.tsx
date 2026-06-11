@@ -24,7 +24,7 @@ export default (() => {
 
     const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
     const path = "localhost:8080/home.canvas"
-    const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
+    const baseDir = fileData.slug === "404" ? path : "https://www.rekceq.net/home.canvas"
     const iconPath = joinSegments(baseDir, "static/icon.png")
 
     // Url of current page

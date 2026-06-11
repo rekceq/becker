@@ -18,8 +18,8 @@ configuration:
     typography:
       title: Astloch
       header: Astloch
-      body: Source Code Pro
-      code: Source Code Pro
+      body: Jetbrains Mono
+      code: Jetbrains Mono
     colors:
       lightMode:
         light: "#9f9f9f" # background
