@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: rekceq.github.io/becker/
+  baseUrl: www.rekceq.net
   ignorePatterns:
     - private
     - templates
