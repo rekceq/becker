@@ -69,17 +69,17 @@ code {
   font-size: 1rem; /* Adjusts code text */
 }
 
-/* Default styles for Light Mode */
-.themed_logo {
-  background-color: #ffffff;
-  //color: #333333;
-}
+// /* Default styles for Light Mode */
+// .themed_logo {
+//   background-color: #ffffff;
+//   //color: #333333;
+// }
 
-/* Styles applied only when Dark Mode is active */
-html[data-theme="dark"] .themed_logo {
-  background-color: #1a1a1a;
-  //color: #dddddd;
-}
+// /* Styles applied only when Dark Mode is active */
+// html[data-theme="dark"] .themed_logo {
+//   background-color: #1a1a1a;
+//   //color: #dddddd;
+// }
 
 /* Swap the PNG when Dark Mode is active */
 
