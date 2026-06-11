@@ -96,3 +96,6 @@ html[data-theme="dark"] .themed_logo {
     -webkit-user-select: none;
 }
 
+.canvas-container {
+  touch-action: pan-y pan-x;
+}
