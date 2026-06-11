@@ -90,12 +90,9 @@ html[data-theme="dark"] .themed_logo {
 //   content: url("https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_light.png?raw=true");
 // }
 
-
 [saved-theme="light"] img {
-  filter: sepia(100%) hue-rotate(190deg) saturate(80%);
+  filter: hue-rotate(250deg) sepia(37%)  saturate(48%);
 }
-
-
 
 /* Prevent unwanted cursor/selection states while panning the canvas */
 .page-canvas {
