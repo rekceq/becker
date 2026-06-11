@@ -1,6 +1,5 @@
 {
 	"nodes":[
-		{"id":"ee4300b34ec95798","x":-3720,"y":-240,"width":1600,"height":800,"type":"text","text":"![](https://github.com/rekceq/becker/blob/v5/content/file_pile/mmrt-export.png?raw=true)\n"},
 		{"id":"3318aabe24534140","type":"text","text":"[![](https://github.com/rekceq/becker/blob/v5/content/file_pile/kakuji_logo_dark.png?raw=true)](https://www.rekceq.net)\n\n\n","x":-2960,"y":-520,"width":240,"height":340}
 	],
 	"edges":[]
