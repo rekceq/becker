@@ -81,3 +81,20 @@ code {
 //   background-repeat: no-repeat;
 //   background-attachment: fixed;
 // }
+
+.canvas-container {
+  pointer-events: none; // Disables all clicks, pans, and zooms
+  user-select: none;     // Prevents text selection
+  cursor: default;       // Changes mouse to default pointer
+}
+
+//.canvas-node, 
+//.canvas-node-content, 
+.canvas-node a, 
+.canvas-node button {
+    pointer-events: auto !important;
+}
+
+.canvas-controls {
+  display: none;
+}
