@@ -69,7 +69,7 @@ code {
 }
 
 
-$base-url: "https://example.com";
+$base-url: "file_pile/img/";
 $file-name: "background.jpg";
 
 .hero-section {
@@ -79,13 +79,13 @@ $file-name: "background.jpg";
 
 //changes node content image
 /* In your light theme definition */
-[saved-theme="light"] [data-node-id="99a6fd9655165d29"] .canvas-node-content p a img {
-  content: url('file_pile/img/kakuji_logo_light.png?raw=true');
+[saved-theme="light"] [data-node-id="th99a6fd9655165d29"] .canvas-node-content p a img {
+  content: url('file_pile/img/themed/logo_light.png?raw=true');
 }
 
 /* In your dark theme definition */
-[saved-theme="dark"] [data-node-id="99a6fd9655165d29"] .canvas-node-content p a img {
-  content: url('file_pile/img/kakuji_logo_dark.png?raw=true');
+[saved-theme="dark"] [data-node-id="th99a6fd9655165d29"] .canvas-node-content p a img {
+  content: url('file_pile/img/themed/logo_dark.png?raw=true');
 }
 
 //changes node bg image
