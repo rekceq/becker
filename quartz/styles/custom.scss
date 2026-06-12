@@ -80,7 +80,7 @@ $file-name: "background.jpg";
 //changes node content image
 /* In your light theme definition */
 
-$filename: str-slice($full-path, 21); 
+//$filename: str-slice($full-path, 21); 
 
 
 [saved-theme="light"] [data-node-id^="th"] .canvas-node-content p a img {
