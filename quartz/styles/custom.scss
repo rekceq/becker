@@ -69,45 +69,26 @@ code {
 }
 
 
-//
-// [saved-theme="light"] [data-node-id="351467a60f358733"] img {
-//   filter: hue-rotate(250deg) saturate(37%) sepia(48%);
-// }
+$base-url: "https://example.com";
+$file-name: "background.jpg";
 
+.hero-section {
+  // Compiles to: url("https://example.combackground.jpg")
+  background-image: url("#{$base-url}#{$file-name}"); 
+}
 
-// [data-node-id="351467a60f358733"] {
-//   img {
-//     content: var(--node-replacement-img);
-//   }
-// }
-
-// .canvas-node.canvas-node-file img {
-//   /* Hides the original image source */
-//   content: url("https://your-domain.com");
-// }
-
-
-
-
-// .canvas-node-content p a img {
-//   content: url('https://github.com/rekceq/becker/blob/v5/content/file_pile/img/kakuji_logo_light.png?raw=true');
-// }
-
-//changes image but in bg
+//changes node content image
 /* In your light theme definition */
 [saved-theme="light"] [data-node-id="99a6fd9655165d29"] .canvas-node-content p a img {
-  content: url('https://github.com/rekceq/becker/blob/v5/content/file_pile/img/kakuji_logo_light.png?raw=true');
+  content: url('file_pile/img/kakuji_logo_light.png?raw=true');
 }
 
 /* In your dark theme definition */
 [saved-theme="dark"] [data-node-id="99a6fd9655165d29"] .canvas-node-content p a img {
-  content: url('https://github.com/rekceq/becker/blob/v5/content/file_pile/img/kakuji_logo_dark.png?raw=true');
+  content: url('file_pile/img/kakuji_logo_dark.png?raw=true');
 }
 
-
-
-
-//changes image but in bg
+//changes node bg image
 /* In your light theme definition */
 // [saved-theme="light"] [data-node-id="351467a60f358733"] {
 //   content: url('https://github.com/rekceq/becker/blob/v5/content/file_pile/img/kakuji_logo_light.png?raw=true');
