@@ -68,9 +68,65 @@ code {
   font-size: 1rem; /* Adjusts code text */
 }
 
-[saved-theme="light"] [data-node-id="351467a60f358733"] img {
-  filter: hue-rotate(250deg) saturate(37%) sepia(48%);
+
+//
+// [saved-theme="light"] [data-node-id="351467a60f358733"] img {
+//   filter: hue-rotate(250deg) saturate(37%) sepia(48%);
+// }
+
+
+// [data-node-id="351467a60f358733"] {
+//   img {
+//     content: var(--node-replacement-img);
+//   }
+// }
+
+// .canvas-node.canvas-node-file img {
+//   /* Hides the original image source */
+//   content: url("https://your-domain.com");
+// }
+
+
+
+
+// .canvas-node-content p a img {
+//   content: url('https://github.com/rekceq/becker/blob/v5/content/file_pile/img/kakuji_logo_light.png?raw=true');
+// }
+
+//changes image but in bg
+/* In your light theme definition */
+[saved-theme="light"] [data-node-id="99a6fd9655165d29"] .canvas-node-content p a img {
+  content: url('https://github.com/rekceq/becker/blob/v5/content/file_pile/img/kakuji_logo_light.png?raw=true');
 }
+
+/* In your dark theme definition */
+[saved-theme="dark"] [data-node-id="99a6fd9655165d29"] .canvas-node-content p a img {
+  content: url('https://github.com/rekceq/becker/blob/v5/content/file_pile/img/kakuji_logo_dark.png?raw=true');
+}
+
+
+
+
+//changes image but in bg
+/* In your light theme definition */
+// [saved-theme="light"] [data-node-id="351467a60f358733"] {
+//   content: url('https://github.com/rekceq/becker/blob/v5/content/file_pile/img/kakuji_logo_light.png?raw=true');
+// }
+
+// /* In your dark theme definition */
+// [saved-theme="dark"] [data-node-id="351467a60f358733"] {
+//   content: url('https://github.com/rekceq/becker/blob/v5/content/file_pile/img/kakuji_logo_dark.png?raw=true');
+// }
+
+
+
+
+// .canvas-node {
+//   --canvas-node-color: #fb464c;
+//   //background: none;
+//   //border: none;
+//   //box-shadow: none;
+// }
 
 // /* Target the specific canvas page or container */
 // .canvas-container {
@@ -95,23 +151,6 @@ code {
 .canvas-controls {
   display: none;
 }
-
-// .dark-only {
-//   display: none !important;
-// }
-// .light-only {
-//   display: block;
-// }
-
-// // When Quartz theme switches to dark mode
-// [saved-theme="dark"] {
-//   .light-only {
-//     display: none !important;
-//   }
-//   .dark-only {
-//     display: block !important;
-//   }
-// }
 
 // /* Default/Light Mode Image */
 // .my-custom-image {
