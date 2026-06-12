@@ -82,19 +82,34 @@ code {
 //   background-attachment: fixed;
 // }
 
+
+//no drag mode
 .canvas-container {
   pointer-events: none; // Disables all clicks, pans, and zooms
   user-select: none;     // Prevents text selection
   cursor: default;       // Changes mouse to default pointer
 }
-
-//.canvas-node, 
-//.canvas-node-content, 
 .canvas-node a, 
 .canvas-node button {
     pointer-events: auto !important;
 }
-
 .canvas-controls {
   display: none;
+}
+
+.dark-only {
+  display: none !important;
+}
+.light-only {
+  display: block;
+}
+
+// When Quartz theme switches to dark mode
+[saved-theme="light"] {
+  .light-only {
+    display: none !important;
+  }
+  .dark-only {
+    display: block !important;
+  }
 }
