@@ -147,6 +147,7 @@ plugins:
     enabled: true
     options:
       enableInteraction: false
+      enableInHtmlEmbed: true
   - source: github:quartz-community/content-page
     enabled: true
   - source: github:quartz-community/folder-page

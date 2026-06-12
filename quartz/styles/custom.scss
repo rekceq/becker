@@ -68,10 +68,9 @@ code {
   font-size: 1rem; /* Adjusts code text */
 }
 
-// [saved-theme="light"] img {
-//   filter: hue-rotate(250deg) sepia(48%)  saturate(37%);
-// }
-
+[saved-theme="light"] [data-node-id="351467a60f358733"] img {
+  filter: hue-rotate(250deg) saturate(37%) sepia(48%);
+}
 
 // /* Target the specific canvas page or container */
 // .canvas-container {
