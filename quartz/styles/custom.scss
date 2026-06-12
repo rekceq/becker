@@ -68,9 +68,9 @@ code {
   font-size: 1rem; /* Adjusts code text */
 }
 
-[saved-theme="light"] img {
-  filter: hue-rotate(250deg) sepia(48%)  saturate(37%);
-}
+// [saved-theme="light"] img {
+//   filter: hue-rotate(250deg) sepia(48%)  saturate(37%);
+// }
 
 
 // /* Target the specific canvas page or container */
@@ -97,19 +97,33 @@ code {
   display: none;
 }
 
-.dark-only {
-  display: none !important;
-}
-.light-only {
-  display: block;
-}
+// .dark-only {
+//   display: none !important;
+// }
+// .light-only {
+//   display: block;
+// }
 
-// When Quartz theme switches to dark mode
-[saved-theme="dark"] {
-  .light-only {
-    display: none !important;
-  }
-  .dark-only {
-    display: block !important;
-  }
-}
+// // When Quartz theme switches to dark mode
+// [saved-theme="dark"] {
+//   .light-only {
+//     display: none !important;
+//   }
+//   .dark-only {
+//     display: block !important;
+//   }
+// }
+
+// /* Default/Light Mode Image */
+// .my-custom-image {
+//   background-image: url('/path/to/light-image.png');
+// }
+
+// /* Dark Mode Override */
+// html[data-theme="dark"] .my-custom-image {
+//   background-image: url('/path/to/dark-image.png');
+// }
+
+// .canvas-node-content {
+//   background-image: url("https://github.com/rekceq/becker/blob/v5/content/file_pile/img/kakuji_logo_dark.png?raw=true");
+// }

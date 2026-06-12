@@ -2,7 +2,7 @@
 	"nodes":[
 		{"id":"3318aabe24534140","type":"text","text":"[![](https://github.com/rekceq/becker/blob/v5/content/file_pile/img/kakuji_logo_dark.png?raw=true)](https://www.rekceq.net)\n\n\n","x":-3040,"y":-600,"width":240,"height":360},
 		{"id":"5b26d7efc7dd631a","type":"text","text":"∅Built with [Obsidian](https://obsidian.md), [Quartz](https://quartz.jzhao.xyz) & [CSS](https://www.w3.org/Style/CSS/Overview.en.html)orcery.","x":-3040,"y":140,"width":240,"height":60},
-		{"id":"470e0db99d3d3354","type":"text","text":"<picture>\n <source srcset=\"/test_dark.png\" media=\"(prefers-color-scheme: dark)\"> \n <img src=\"/test_light.png\" alt=\"Description of your image\"> \n </picture>\n ","x":-3860,"y":-240,"width":820,"height":280}
+		{"id":"351467a60f358733","type":"text","text":"![](file_pile/img/kakuji_logo_dark.png)","x":-3040,"y":-240,"width":240,"height":360}
 	],
 	"edges":[]
 }
