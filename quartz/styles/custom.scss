@@ -77,20 +77,24 @@ $file-name: "background.jpg";
   background-image: url("#{$base-url}#{$file-name}"); 
 }
 
-//changes node content image
+
 /* In your light theme definition */
 
 //$filename: str-slice($full-path, 21); 
 
+//changes node content image
+.canvas-node-content p a img {
+  content: url('file_pile/img/themed/logo_dark.png?raw=true');
+}
 
 [saved-theme="light"] [data-node-id^="th"] .canvas-node-content p a img {
   content: url('file_pile/img/themed/logo_light.png?raw=true');
 }
 
-/* In your dark theme definition */
-[saved-theme="dark"] [data-node-id^="th"] .canvas-node-content p a img {
-  content: url('file_pile/img/themed/logo_dark.png?raw=true');
-}
+// /* In your dark theme definition */
+// [saved-theme="dark"] [data-node-id^="th"] .canvas-node-content p a img {
+//   content: url('file_pile/img/themed/logo_dark.png?raw=true');
+// }
 
 //changes node bg image
 /* In your light theme definition */

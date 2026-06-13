@@ -1,7 +1,7 @@
 {
 	"nodes":[
-		{"id":"5b26d7efc7dd631a","type":"text","text":"∅Built with [Obsidian](https://obsidian.md), [Quartz](https://quartz.jzhao.xyz) & [CSS](https://www.w3.org/Style/CSS/Overview.en.html)orcery.","x":-3040,"y":140,"width":240,"height":60},
-		{"id":"th99a6fd9655165d29","type":"text","text":"[![](content/file_pile/img/themed/logo_dark.png)](https//:www.rekceq.net)","x":-3040,"y":-800,"width":240,"height":360}
+		{"id":"th99a6fd9655165d29","type":"text","text":"[![](content/file_pile/img/themed/logo_dark.png)](https//:www.rekceq.net)","x":-3300,"y":-800,"width":240,"height":360},
+		{"id":"5b26d7efc7dd631a","type":"text","text":"∅Built with [Obsidian](https://obsidian.md), [Quartz](https://quartz.jzhao.xyz) & [CSS](https://www.w3.org/Style/CSS/Overview.en.html)orcery.","x":-3300,"y":140,"width":240,"height":60}
 	],
 	"edges":[]
 }
