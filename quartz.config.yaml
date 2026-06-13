@@ -145,14 +145,12 @@ plugins:
     enabled: true
   - source: github:quartz-community/canvas-page
     enabled: true
-    #options:
-      #zoomToFit: false
-      # enableInteraction: false
-      # enableInHtmlEmbed: true
-      # initialZoom: 1
-      # minZoom: 0.05    # Change this value (e.g., to zoom out further)
-      # maxZoom: 2     # Change this value (e.g., to zoom in further)
-      # defaultFullscreen: false
+    options:
+      enableInteraction: false
+      enableInHtmlEmbed: true
+      initialZoom: 1
+      minZoom: 0.05    # Change this value (e.g., to zoom out further)
+      maxZoom: 2     # Change this value (e.g., to zoom in further)
   - source: github:quartz-community/content-page
     enabled: true
   - source: github:quartz-community/folder-page

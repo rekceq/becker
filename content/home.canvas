@@ -1,7 +1,13 @@
 {
 	"nodes":[
-		{"id":"5b26d7efc7dd631a","type":"text","text":"∅Built with [Obsidian](https://obsidian.md), [Quartz](https://quartz.jzhao.xyz) & [CSS](https://www.w3.org/Style/CSS/Overview.en.html)orcery.","x":0,"y":400,"width":240,"height":60},
-		{"id":"th99a6fd9655165d29","type":"text","text":"[![](file_pile/img/themed/logo_dark.png)](https//:www.rekceq.net)","x":0,"y":-560,"width":240,"height":360}
+		{"id":"5b26d7efc7dd631a","type":"text","text":"∅Built with [Obsidian](https://obsidian.md), [Quartz](https://quartz.jzhao.xyz) & [CSS](https://www.w3.org/Style/CSS/Overview.en.html)orcery.","x":0,"y":300,"width":240,"height":60},
+		{"id":"4509f036362c11fe","type":"text","text":"![](file_pile/img/themed/qrtz_dark.png)","x":86,"y":380,"width":69,"height":71},
+		{"id":"e55761a0b9514d29","type":"text","text":"![](file_pile/img/themed/obsd_dark.png)","x":0,"y":380,"width":69,"height":71},
+		{"id":"8d345c2be107cd65","type":"text","text":"![](file_pile/img/themed/_css_dark.png)","x":171,"y":380,"width":69,"height":71},
+		{"id":"73beb57874bf7835","type":"text","text":"![](file_pile/img/themed/dgnr_dark.png)\n","x":-300,"y":-340,"width":280,"height":320},
+		{"id":"th99a6fd9655165d29","type":"text","text":"[![](file_pile/img/themed/logo_dark.png)](https//:www.rekceq.net)","x":0,"y":-240,"width":240,"height":360},
+		{"id":"12097e56fa265ced","type":"text","text":"![](file_pile/img/themed/zgrt_dark.png)","x":260,"y":-240,"width":309,"height":220},
+		{"id":"04f165831647aafe","type":"text","text":"![](file_pile/img/themed/mmrt_dark.png)","x":1,"y":-420,"width":340,"height":160}
 	],
 	"edges":[]
 }
