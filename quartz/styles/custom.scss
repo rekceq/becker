@@ -6,9 +6,13 @@
 .canvas-node {
   background-color: var(--highlight);
   border-radius: 8px;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
+.canvas-container {
+  touch-action: pan-x pan-y; /* Disables standard browser pinch-zoom on the canvas while allowing smooth panning */
+}
+ /* Allows scrolling but prevents pinch-to-zoom */
 
 /* Hide scrollbars on embedded canvas notes in Quartz */
 .popover.hover,
@@ -68,7 +72,6 @@ code {
   font-size: 1rem; /* Adjusts code text */
 }
 
-
 $base-url: "file_pile/img/";
 $file-name: "background.jpg";
 
@@ -85,14 +88,6 @@ $file-name: "background.jpg";
 $themed: "saved-theme";
 $themed-suffix: "dark.png?raw=true";
 
-// .canvas-node-content p a img {
-//   overflow: hidden;
-//   pointer-events: none;
-  
-// }
-
-
-
 .canvas-wrapper, .canvas-viewport, .canvas-node-content{
   /* Prevent touch gestures from firing standard browser zoom side-effects */
   touch-action: pan-x pan-y;
@@ -101,20 +96,13 @@ $themed-suffix: "dark.png?raw=true";
 
 //changes node content image
 .canvas-node-content p a img {
-  $themed-prefix: str-slice(content, 0, 25);
-
-
+  //$themed-prefix: str-slice(content, 0, 25);
   content: url('file_pile/img/themed/logo_dark.png?raw=true');
 }
 
 [saved-theme="light"] [data-node-id^="th"] .canvas-node-content p a img {
   content: url('file_pile/img/themed/logo_light.png?raw=true');
 }
-
-// /* In your dark theme definition */
-// [saved-theme="dark"] [data-node-id^="th"] .canvas-node-content p a img {
-//   content: url('file_pile/img/themed/logo_dark.png?raw=true');
-// }
 
 //changes node bg image
 /* In your light theme definition */
@@ -125,25 +113,6 @@ $themed-suffix: "dark.png?raw=true";
 // /* In your dark theme definition */
 // [saved-theme="dark"] [data-node-id="351467a60f358733"] {
 //   content: url('https://github.com/rekceq/becker/blob/v5/content/file_pile/img/kakuji_logo_dark.png?raw=true');
-// }
-
-
-
-
-// .canvas-node {
-//   --canvas-node-color: #fb464c;
-//   //background: none;
-//   //border: none;
-//   //box-shadow: none;
-// }
-
-// /* Target the specific canvas page or container */
-// .canvas-container {
-//   background-image: url('https://github.com/rekceq/becker/blob/v5/content/file_pile/mmrt-export.png?raw=true');
-//   background-size: cover;
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-attachment: fixed;
 // }
 
 
@@ -160,19 +129,3 @@ $themed-suffix: "dark.png?raw=true";
 .canvas-controls {
   display: none;
 }
-
-// /* Default/Light Mode Image */
-// .my-custom-image {
-//   background-image: url('/path/to/light-image.png');
-// }
-
-// /* Dark Mode Override */
-// html[data-theme="dark"] .my-custom-image {
-//   background-image: url('/path/to/dark-image.png');
-// }
-
-// .canvas-node-content {
-//   background-image: url("https://github.com/rekceq/becker/blob/v5/content/file_pile/img/kakuji_logo_dark.png?raw=true");
-// }
-
-

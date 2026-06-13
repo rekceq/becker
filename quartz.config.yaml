@@ -145,9 +145,13 @@ plugins:
     enabled: true
   - source: github:quartz-community/canvas-page
     enabled: true
-    # options:
-    #   enableInteraction: false
-    #   enableInHtmlEmbed: true
+    options:
+      enableInteraction: false
+      enableInHtmlEmbed: true
+      initialZoom: 1
+      minZoom: 0.05    # Change this value (e.g., to zoom out further)
+      maxZoom: 10      # Change this value (e.g., to zoom in further)
+      defaultFullscreen: false
   - source: github:quartz-community/content-page
     enabled: true
   - source: github:quartz-community/folder-page
@@ -288,10 +292,6 @@ layout:
         right: []
     content: {}
       # template: full-width
-      # positions:
-      #   beforeBody: [ArticleTitle, ContentMeta, TagList]
-      #   left: [] # Leave empty or only include other components (like Breadcrumbs) to remove the Explorer
-      #   right: [Graph, TableOfContents, Backlinks]
     folder:
       exclude:
         - reader-mode
