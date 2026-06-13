@@ -9,11 +9,6 @@
   overflow: hidden;
 }
 
-.canvas-container {
-  touch-action: pan-x pan-y; /* Disables standard browser pinch-zoom on the canvas while allowing smooth panning */
-}
- /* Allows scrolling but prevents pinch-to-zoom */
-
 /* Hide scrollbars on embedded canvas notes in Quartz */
 .popover.hover,
 .canvas-node-content,
@@ -117,15 +112,16 @@ $themed-suffix: "dark.png?raw=true";
 
 
 //no drag mode
-.canvas-container {
-  pointer-events: none; // Disables all clicks, pans, and zooms
-  user-select: none;     // Prevents text selection
-  cursor: default;       // Changes mouse to default pointer
-}
-.canvas-node a, 
-.canvas-node button {
-    pointer-events: auto !important;
-}
-.canvas-controls {
-  display: none;
-}
+// .canvas-container {
+//   pointer-events: none; // Disables all clicks, pans, and zooms
+//   user-select: none;     // Prevents text selection
+//   cursor: default;       // Changes mouse to default pointer
+// }
+// .canvas-node a, 
+// .canvas-node button {
+//     pointer-events: auto !important;
+//     user-select: none;
+// }
+// .canvas-controls {
+//   display: none;
+// }
