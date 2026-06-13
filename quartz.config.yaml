@@ -39,7 +39,7 @@ configuration:
         dark: "#aaaaff" # titles / explorer links / code text
         secondary: "#aa55ff" #tags / links / active graph node / explore folders
         tertiary: "#ff0055" #active explorer tabs / targeted links / graph tags
-        highlight: rgba(143, 159, 169, 0)
+        highlight: "#00005500"
         textHighlight: "#000055"
 plugins:
   - source: github:quartz-community/created-modified-date

@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"12097e56fa265ced","type":"text","text":"![](file_pile/img/themed/zgrt_dark.png)","x":40,"y":-1080,"width":294,"height":220},
+		{"id":"04f165831647aafe","type":"text","text":"![](file_pile/img/themed/mmrt_dark.png)","x":17,"y":-840,"width":340,"height":160},
+		{"id":"73beb57874bf7835","type":"text","text":"![](file_pile/img/themed/dgnr_dark.png)\n","x":40,"y":-660,"width":294,"height":300}
+	],
+	"edges":[]
+}
