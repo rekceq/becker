@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"5b26d7efc7dd631a","type":"text","text":"Built with [Obsidian](https://obsidian.md), [Quartz](https://quartz.jzhao.xyz) & [CSS](https://www.w3.org/Style/CSS/Overview.en.html)orcery","x":0,"y":300,"width":220,"height":60},
+		{"id":"5b26d7efc7dd631a","type":"text","text":"Built with [Obsidian](https://obsidian.md), [Quartz](https://quartz.jzhao.xyz) & [CSS](https://www.w3.org/Style/CSS/Overview.en.html)orcery.","x":0,"y":300,"width":220,"height":60},
 		{"id":"651cbfec91c6473e","type":"text","text":"","x":0,"y":220,"width":60,"height":60},
 		{"id":"ac53c125a52759b1","type":"text","text":"","x":0,"y":140,"width":60,"height":60},
 		{"id":"0fdfc80d8a65d77f","type":"text","text":"","x":0,"y":60,"width":60,"height":60},

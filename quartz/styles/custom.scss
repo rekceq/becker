@@ -23,10 +23,10 @@
 
 }
 .canvas-node-content {
-  margin-top: -16px;
-  margin-left: +24px;
-  margin-right: +24px;
-  margin-bottom: +8px;
+  margin-top: -32px;
+  //margin-left: -32px;
+  //margin-right: -32px;
+  //margin-bottom: 0px;
 }
 
 // Target the Quartz Explorer component folder and file links
@@ -91,11 +91,11 @@ $themed-suffix: "dark.png?raw=true";
 //changes node content image
 .canvas-node-content p a img {
   //$themed-prefix: str-slice(content, 0, 25);
-  content: url('file_pile/img/themed/logo_dark.png?raw=true');
+  content: url('file_pile/img/themed/logo_dark.png');
 }
 
 [saved-theme="light"] [data-node-id^="th"] .canvas-node-content p a img {
-  content: url('file_pile/img/themed/logo_light.png?raw=true');
+  content: url('file_pile/img/themed/logo_light.png');
 }
 
 //changes node bg image
