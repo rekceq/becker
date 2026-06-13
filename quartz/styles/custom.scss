@@ -26,6 +26,7 @@
 }
 .canvas-node-content {
   margin-top: -32px;
+  overflow: hidden; 
   //margin-left: -32px;
   //margin-right: -32px;
   //margin-bottom: 0px;
@@ -88,9 +89,6 @@ $themed-suffix: "dark.png?raw=true";
 //changes node content image
 .canvas-node-content p a img {
   $themed-prefix: str-slice(content, 0, 25);
-  overflow: hidden; 
-  
-
 
   content: url('file_pile/img/themed/logo_dark.png?raw=true');
 }
