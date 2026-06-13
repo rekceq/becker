@@ -26,7 +26,6 @@
 }
 .canvas-node-content {
   margin-top: -32px;
-  overflow: hidden; 
   //margin-left: -32px;
   //margin-right: -32px;
   //margin-bottom: 0px;
@@ -86,9 +85,24 @@ $file-name: "background.jpg";
 $themed: "saved-theme";
 $themed-suffix: "dark.png?raw=true";
 
+// .canvas-node-content p a img {
+//   overflow: hidden;
+//   pointer-events: none;
+  
+// }
+
+
+
+.canvas-wrapper, .canvas-viewport, .canvas-node-content{
+  /* Prevent touch gestures from firing standard browser zoom side-effects */
+  touch-action: pan-x pan-y;
+  overscroll-behavior: none;
+}
+
 //changes node content image
 .canvas-node-content p a img {
   $themed-prefix: str-slice(content, 0, 25);
+
 
   content: url('file_pile/img/themed/logo_dark.png?raw=true');
 }
@@ -160,3 +174,5 @@ $themed-suffix: "dark.png?raw=true";
 // .canvas-node-content {
 //   background-image: url("https://github.com/rekceq/becker/blob/v5/content/file_pile/img/kakuji_logo_dark.png?raw=true");
 // }
+
+
