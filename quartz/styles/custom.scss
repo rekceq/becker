@@ -136,21 +136,35 @@ code {
   margin-right: +8px;
   margin-bottom: 0px;
 }
-.canvas-node-content p a img {
-  border-radius: 0px;
-  transition: filter 0.3s ease; // Smooth animation for the hover effect
+
+// .canvas-node-content p a img {
+//   border-radius: 0px;
+//   transition: filter 0.3s ease; // Smooth animation for the hover effect
+
+//   &:hover {
+//     //filter: brightness(80%) blur(1.2px); // Adjust values to get your desired effect
+//   filter: sepia(0%) 
+//           /* Step 2: Shift the color wheel to your target hue (e.g., 190deg for blue) */
+//           hue-rotate(40deg) 
+//           /* Step 3: Boost or lower the intensity of the new tint color */
+//           saturate(130%) 
+//           /* Step 4: Adjust the overall lighting of the image if needed */
+//           brightness(100%);
+//   }
+// }
+
+
+
+
+.canvas-node{
+  transition: background-color 0.3s ease; // Smooth animation for the hover effect
 
   &:hover {
     //filter: brightness(80%) blur(1.2px); // Adjust values to get your desired effect
-  filter: sepia(0%) 
-          /* Step 2: Shift the color wheel to your target hue (e.g., 190deg for blue) */
-          hue-rotate(40deg) 
-          /* Step 3: Boost or lower the intensity of the new tint color */
-          saturate(120%) 
-          /* Step 4: Adjust the overall lighting of the image if needed */
-          brightness(100%);
+    background-color: #ff0055;
   }
 }
+
 
 
 
