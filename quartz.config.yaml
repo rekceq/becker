@@ -145,6 +145,10 @@ plugins:
     enabled: true
   - source: github:quartz-community/canvas-page
     enabled: true
+    options:
+      # Lock the canvas and prevent nodes from panning with the mouse
+      lockCanvas: true
+
     # options:
     #   enableInteraction: false
     #   enableInHtmlEmbed: true
