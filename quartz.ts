@@ -11,20 +11,20 @@ ExternalPlugin.Explorer({
       })
     }
  
-    if (!a.isFolder && b.isFolder) {
-      return -1
-    } else {
-      return -1
-    }
+    // if (!a.isFolder && b.isFolder) {
+    //   return 1
+    // } else {
+    //   return -1
+    // }
   },
 })
 
-//ExternalPlugin.CanvasPage({
-//  enableInteraction: false,
-//  defaultFullscreen: false,
-//  minZoom: 1,
-//  maxZoom: 1,
-//});
+ExternalPlugin.CanvasPage({
+ enableInteraction: false,
+ defaultFullscreen: false,
+ minZoom: 1,
+ maxZoom: 1,
+});
 
 const config = await loadQuartzConfig()
 export default config

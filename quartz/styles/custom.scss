@@ -5,6 +5,7 @@
 //change canvas card background fill
 .canvas-node {
   background-color: var(--highlight);
+  border-radius: 8px;
   overflow: hidden;
 }
 
@@ -21,12 +22,6 @@
   scrollbar-width: none; /* Firefox */
   overflow: hidden; // Hides both axes
 
-}
-.canvas-node-content {
-  margin-top: -32px;
-  //margin-left: -32px;
-  //margin-right: -32px;
-  //margin-bottom: 0px;
 }
 
 // Target the Quartz Explorer component folder and file links
@@ -66,36 +61,26 @@ code {
   font-size: 1rem; /* Adjusts code text */
 }
 
-$base-url: "file_pile/img/";
-$file-name: "background.jpg";
+// $base-url: "file_pile/img/";
+// $file-name: "background.jpg";
 
-.hero-section {
-  // Compiles to: url("https://example.combackground.jpg")
-  background-image: url("#{$base-url}#{$file-name}"); 
-}
+// .hero-section {
+//   // Compiles to: url("https://example.combackground.jpg")
+//   background-image: url("#{$base-url}#{$file-name}"); 
+// }
 
 
 /* In your light theme definition */
 
 //$filename: str-slice($full-path, 26); 
 
-$themed: "saved-theme";
-$themed-suffix: "dark.png?raw=true";
+// $themed: "saved-theme";
+// $themed-suffix: "dark.png?raw=true";
 
 .canvas-wrapper, .canvas-viewport, .canvas-node-content{
   /* Prevent touch gestures from firing standard browser zoom side-effects */
   touch-action: pan-x pan-y;
   overscroll-behavior: none;
-}
-
-//changes node content image
-.canvas-node-content p a img {
-  //$themed-prefix: str-slice(content, 0, 25);
-  content: url('file_pile/img/themed/logo_dark.png');
-}
-
-[saved-theme="light"] [data-node-id^="th"] .canvas-node-content p a img {
-  content: url('file_pile/img/themed/logo_light.png');
 }
 
 //changes node bg image
@@ -109,6 +94,10 @@ $themed-suffix: "dark.png?raw=true";
 //   content: url('https://github.com/rekceq/becker/blob/v5/content/file_pile/img/kakuji_logo_dark.png?raw=true');
 // }
 
+
+// .canvas-node-content p a img {
+//   pointer-events: auto; /* Re-enables clicking inside individual nodes (like links) */
+// }
 
 //no drag mode
 // .canvas-container {
@@ -124,3 +113,47 @@ $themed-suffix: "dark.png?raw=true";
 // .canvas-controls {
 //   display: none;
 // }
+
+// .canvas-container{
+//   pointer-events: none; /* Disables all dragging and clicking */
+// }
+
+.canvas-container {
+  user-select: none;
+}
+
+.popover-hint,
+.canvas-node {
+  border: 0px;
+  border-radius: 0px; /* Adjust this value to your liking */
+}
+
+.canvas-node-content {
+  margin-top: -28px;
+  border: 0px;
+  border-radius: 0px; /* Adjust this value to your liking */
+  margin-left: +8px;
+  margin-right: +8px;
+  margin-bottom: 0px;
+}
+
+.canvas-node path:hover {
+  background-color: var(--dark); /* Adjust to your preferred color */
+  border-color: var(--dark);
+}
+
+.canvas-node-content p a img {
+  border-radius: 0px;
+}
+
+
+//changes node content image by id
+$img: "logo";
+
+[data-node-id^="th"] .canvas-node-content p a img {
+  content: url("file_pile/img/themed/" + $img + "_dark.png");
+}
+
+[saved-theme="light"] [data-node-id^="th"] .canvas-node-content p a img {
+  content: url("file_pile/img/themed/" + $img + "_light.png");
+}
