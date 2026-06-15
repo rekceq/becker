@@ -153,21 +153,10 @@ code {
 //   }
 // }
 
-
-
-
-.canvas-node{
-  transition: background-color 0.3s ease; // Smooth animation for the hover effect
-
-  &:hover {
-    //filter: brightness(80%) blur(1.2px); // Adjust values to get your desired effect
-    background-color: #ff0055;
-  }
-}
-
-// .page[data-frame="canvas"] {
+// .canvas-container {
+//   background-color: #000030;
 //   #quartz-body {
-//     position: relative; 
+//     position: relative;
 //   }
 
 //   // Add your image as an overlay
@@ -184,36 +173,34 @@ code {
 //   }
 // }
 
+.canvas-node{
+  transition: background-color 0.3s ease; // Smooth animation for the hover effect
 
-
-.canvas-container {
-    /* disable selections / cut copy paste actions */
-    //pointer-events: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-
-    /* disable callout, image save panel on long press */
-    -webkit-touch-callout: none;
-
-    /* "turn off" link highlight, good for custom pressed states */
-    -webkit-tap-hightlight-color: transparent;
-    touch-action: none;
+  &:hover {
+    //filter: brightness(80%) blur(1.2px); // Adjust values to get your desired effect
+    background-color: #ff0055;
+  }
 }
-
-
-
-
 
 //changes node content image by id
 $img: "logo";
 
-[data-node-id^="th"] .canvas-node-content p a img {
-  content: url("file_pile/img/themed/" + $img + "_dark.png");
-}
 
-[saved-theme="light"] [data-node-id^="th"] .canvas-node-content p a img {
-  content: url("file_pile/img/themed/" + $img + "_light.png");
-}
+
+// [data-node-id^="th"] .canvas-node-content p a img {
+//   content: url("file_pile/img/themed/" + $img + "_dark.png");
+// }
+
+// [saved-theme="light"] [data-node-id^="th"] .canvas-node-content p a img {
+//   content: url("file_pile/img/themed/" + $img + "_light.png");
+// }
+
+
+// .canvas-node-content p a img{
+//   transition: content 0.3s ease; // Smooth animation for the hover effect
+
+//   &:hover {
+//     //filter: brightness(80%) blur(1.2px); // Adjust values to get your desired effect
+//     content: url("file_pile/img/themed/" + $img + "_light.png");
+//   }
+// }

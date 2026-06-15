@@ -136,19 +136,10 @@ plugins:
     enabled: true
   - source: github:quartz-community/og-image
     enabled: true
-    options:
-      colorScheme: darkMode # "lightMode" or "darkMode"
-      width: 1200
-      height: 630
-      excludeRoot: false
   - source: github:quartz-community/cname
     enabled: true
   - source: github:quartz-community/canvas-page
     enabled: true
-    options:
-      # Lock the canvas and prevent nodes from panning with the mouse
-      lockCanvas: true
-
     # options:
     #   enableInteraction: false
     #   enableInHtmlEmbed: true

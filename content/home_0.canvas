@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"id":"73beb57874bf7835","type":"text","text":"![](file_pile/img/themed/dgnr_dark.png)\n","x":-300,"y":-740,"width":300,"height":320},
-		{"id":"12097e56fa265ced","type":"text","text":"![](file_pile/img/themed/zgrt_dark.png)","x":-300,"y":-420,"width":300,"height":220}
-	],
-	"edges":[]
-}

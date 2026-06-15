@@ -19,12 +19,14 @@ ExternalPlugin.Explorer({
   },
 })
 
+
 ExternalPlugin.CanvasPage({
- enableInteraction: false,
- defaultFullscreen: false,
- minZoom: 1,
- maxZoom: 1,
-});
+  enableInteraction: false, // Disables all panning and zooming
+  defaultFullscreen: false,
+  initialZoom: 1,
+  minZoom: 1,               // Prevents zooming out
+  maxZoom: 1,               // Prevents zooming in
+})
 
 const config = await loadQuartzConfig()
 export default config
