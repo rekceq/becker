@@ -105,18 +105,15 @@ code {
 //   user-select: none;     // Prevents text selection
 //   cursor: default;       // Changes mouse to default pointer
 // }
-// .canvas-node a, 
-// .canvas-node button {
-//     pointer-events: auto !important;
-//     user-select: none;
-// }
-// .canvas-controls {
-//   display: none;
-// }
 
-// .canvas-container{
-//   pointer-events: none; /* Disables all dragging and clicking */
-// }
+.canvas-node a, 
+.canvas-node button {
+    pointer-events: auto !important;
+    user-select: none;
+}
+.canvas-controls {
+  display: none;
+}
 
 .canvas-container {
   user-select: none;
