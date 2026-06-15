@@ -12,7 +12,7 @@
 /* Hide scrollbars on embedded canvas notes in Quartz */
 .popover.hover,
 .canvas-node-content,
-.container-clipped, {
+.container-clipped {
   overscroll-behavior: contain;
   &::-webkit-scrollbar {
     display: none; /* Chrome/Safari */
@@ -118,14 +118,14 @@ code {
 //   pointer-events: none; /* Disables all dragging and clicking */
 // }
 
-// .canvas-container {
-//   user-select: none;
-//   pointer-events: none;
-// }
+.canvas-container {
+  user-select: none;
+  pointer-events: none;
+}
 
-// .canvas-node-content p a {
-//   pointer-events: auto;
-// }
+.canvas-node-content p a {
+  pointer-events: auto;
+}
 
 .popover-hint,
 .canvas-node {
