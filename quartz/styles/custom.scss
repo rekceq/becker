@@ -120,6 +120,11 @@ code {
 
 .canvas-container {
   user-select: none;
+  pointer-events: none;
+}
+
+.canvas-node-content p a {
+  pointer-events: auto;
 }
 
 .popover-hint,
@@ -136,6 +141,8 @@ code {
   margin-right: +8px;
   margin-bottom: 0px;
 }
+
+
 
 // .canvas-node-content p a img {
 //   border-radius: 0px;
@@ -204,3 +211,4 @@ $img: "logo";
 //     content: url("file_pile/img/themed/" + $img + "_light.png");
 //   }
 // }
+
