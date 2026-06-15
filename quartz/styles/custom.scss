@@ -106,6 +106,11 @@ code {
 //   cursor: default;       // Changes mouse to default pointer
 // }
 
+.page {
+  /* Stops scroll chaining from passing to parent elements/the main page */
+  overscroll-behavior: contain; 
+}
+
 .canvas-node a, 
 .canvas-node button {
     pointer-events: auto !important;
