@@ -16,7 +16,7 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      title: Astloch
+      #title: Astloch
       header: Astloch
       body: Jetbrains Mono
       code: Jetbrains Mono
@@ -140,12 +140,12 @@ plugins:
     enabled: true
   - source: github:quartz-community/canvas-page
     enabled: true
-    # options:
-    #   enableInteraction: false
-    #   enableInHtmlEmbed: true
-    #   initialZoom: 1
-    #   minZoom: 0.05    # Change this value (e.g., to zoom out further)
-    #   maxZoom: 2     # Change this value (e.g., to zoom in further)
+    options:
+      enableInteraction: false
+      enableInHtmlEmbed: true
+      initialZoom: 1
+      minZoom: 0.05    # Change this value (e.g., to zoom out further)
+      maxZoom: 2     # Change this value (e.g., to zoom in further)
   - source: github:quartz-community/content-page
     enabled: true
   - source: github:quartz-community/folder-page
