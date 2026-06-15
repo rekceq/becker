@@ -118,14 +118,14 @@ code {
 //   pointer-events: none; /* Disables all dragging and clicking */
 // }
 
-.canvas-container {
-  user-select: none;
-  pointer-events: none;
-}
+// .canvas-container {
+//   user-select: none;
+//   pointer-events: none;
+// }
 
-.canvas-node-content p a {
-  pointer-events: auto;
-}
+// .canvas-node-content p a {
+//   pointer-events: auto;
+// }
 
 .popover-hint,
 .canvas-node {
