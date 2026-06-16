@@ -139,12 +139,11 @@ code {
 //   }
 // }
 
-// .canvas-container {
-//   background-color: #000030;
+// [data-slug="home.canvas"] .canvas-container {
+//   //background-color: #000055;
 //   #quartz-body {
 //     position: relative;
 //   }
-
 //   // Add your image as an overlay
 //   &::before {
 //     content: "";
@@ -153,11 +152,29 @@ code {
 //     left: 0;
 //     width: 100%;
 //     height: 100%;
-//     background-image: url("file_pile/img/fg0_dark.png");
-//     z-index: 10; // Ensures it displays above the canvas
+//     background-image: url("file_pile/img/fg0_dark.gif"), url("file_pile/img/fg0_dark.png");;
+//     z-index: 0; // Ensures it displays above the canvas
 //     pointer-events: none; // Allows interaction with the canvas underneath
 //   }
 // }
+
+
+// [data-slug="home.canvas"] .canvas-container {
+//   background-image: url("file_pile/img/fg0_dark.gif");
+// }
+
+// // Target a specific note (e.g., content/projects/my-game.md)
+// [data-slug="test.canvas"] .canvas-container {
+//   background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+// }
+
+.canvas-container div:nth-child(1):hover img { 
+  left: 0; 
+  top: 0; 
+}
+
+
+
 
 .canvas-node{
   transition: background-color 0.3s ease; // Smooth animation for the hover effect
@@ -191,3 +208,14 @@ $img: "logo";
 //   }
 // }
 
+
+/////BACKGROUNDS
+/// 
+
+////by page
+
+///by theme
+
+//dark
+
+//light
