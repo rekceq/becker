@@ -77,11 +77,11 @@ code {
 // $themed: "saved-theme";
 // $themed-suffix: "dark.png?raw=true";
 
-.canvas-wrapper, .canvas-viewport, .canvas-node-content{
-  /* Prevent touch gestures from firing standard browser zoom side-effects */
-  touch-action: pan-x pan-y;
-  overscroll-behavior: none;
-}
+// .canvas-wrapper, .canvas-viewport, .canvas-node-content{
+//   /* Prevent touch gestures from firing standard browser zoom side-effects */
+//   touch-action: pan-x pan-y;
+//   overscroll-behavior: none;
+// }
 
 //changes node bg image
 /* In your light theme definition */
@@ -106,29 +106,6 @@ code {
 //   cursor: default;       // Changes mouse to default pointer
 // }
 
-.page {
-  /* Stops scroll chaining from passing to parent elements/the main page */
-  overscroll-behavior: contain; 
-}
-
-.canvas-node a, 
-.canvas-node button {
-    pointer-events: auto !important;
-    user-select: none;
-}
-.canvas-controls {
-  display: none;
-}
-
-.canvas-container {
-  user-select: none;
-  pointer-events: none;
-}
-
-.canvas-node-content p a {
-  pointer-events: auto;
-}
-
 .popover-hint,
 .canvas-node {
   border: 0px;
@@ -138,7 +115,7 @@ code {
 .canvas-node-content {
   margin-top: -28px;
   border: 0px;
-  border-radius: 0px; /* Adjust this value to your liking */
+  border-radius: 0px;
   margin-left: +8px;
   margin-right: +8px;
   margin-bottom: 0px;
