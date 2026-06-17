@@ -167,14 +167,7 @@ code {
 //   background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
 // }
 
-.canvas-node{
-  transition: background-color 0.3s ease; // Smooth animation for the hover effect
 
-  &:hover {
-    //filter: brightness(80%) blur(1.2px); // Adjust values to get your desired effect
-    background-color: #ff0055;
-  }
-}
 
 //changes node content image by id
 $img: "logo";
@@ -232,17 +225,19 @@ $img: "logo";
 //   }
 // }
 
-
 [data-slug="home.canvas"] .canvas-container {
   //background-color: #000055;
   // #quartz-body {
   //   position: relative;
   // }
   // Add your image as an overlay
-
+  //opacity: .2;
   &::before { //before nodes on canvas
     content: "";
+    opacity: 0;
     position: absolute;
+    transition: background-image 0.3s ease-in-out;
+    background-position: center;
     top: 0;
     left: 0;
     width: 100%;
@@ -254,7 +249,10 @@ $img: "logo";
 
   &::after { //after nodes on canvas
     content: "";
+    opacity: 0;
     position: absolute;
+    transition: background-image 0.3s ease-in-out;
+    background-position: center;
     top: 0;
     left: 0;
     width: 100%;
@@ -263,9 +261,54 @@ $img: "logo";
     z-index: 1; // Ensures it displays above the canvas
     pointer-events: none; // Allows interaction with the canvas underneath
   }
-
-
 }
+
+// .canvas-node-:hover .canvas-container img{
+//   background-image: url("file_pile/img/fg0_dark.png");
+// }
+
+
+.canvas-container:has([data-node-id^="thgifmain"] .canvas-node-content:hover)::before {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 1;
+}
+
+.canvas-container:has([data-node-id^="thgifmain"] .canvas-node-content:hover)::after {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 1;
+}
+
+[data-slug="home.canvas"] .canvas-node-content p a img {
+  border-radius: 0px;
+  transition: filter 0.3s ease; // Smooth animation for the hover effect
+
+  &:hover {
+    //filter: brightness(80%) blur(1.2px); // Adjust values to get your desired effect
+    filter:sepia(0%) 
+          /* Step 2: Shift the color wheel to your target hue (e.g., 190deg for blue) */
+          hue-rotate(240deg) 
+          /* Step 3: Boost or lower the intensity of the new tint color */
+          saturate(100%) 
+          /* Step 4: Adjust the overall lighting of the image if needed */
+          brightness(25%);
+  }
+}
+
+// .canvas-node{
+//   transition: background-color 0.3s ease; // Smooth animation for the hover effect
+
+//   &:hover {
+//     //filter: brightness(80%) blur(1.2px); // Adjust values to get your desired effect
+//     background-color: #ff0055;
+//   }
+// }
+
+
+
+
+
+
+
 
 // /* Bottom Background Layer */
 // .page-container::before {

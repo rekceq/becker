@@ -40,7 +40,7 @@ configuration:
         secondary: "#aa55ff" #tags / links / active graph node / explore folders
         tertiary: "#ff0055" #active explorer tabs / targeted links / graph tags
         highlight: "#00005500"
-        textHighlight: "#000055"
+        textHighlight: "#0000aa50"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
