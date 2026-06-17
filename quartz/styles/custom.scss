@@ -69,43 +69,6 @@ code {
 //   background-image: url("#{$base-url}#{$file-name}"); 
 // }
 
-
-/* In your light theme definition */
-
-//$filename: str-slice($full-path, 26); 
-
-// $themed: "saved-theme";
-// $themed-suffix: "dark.png?raw=true";
-
-// .canvas-wrapper, .canvas-viewport, .canvas-node-content{
-//   /* Prevent touch gestures from firing standard browser zoom side-effects */
-//   touch-action: pan-x pan-y;
-//   overscroll-behavior: none;
-// }
-
-//changes node bg image
-/* In your light theme definition */
-// [saved-theme="light"] [data-node-id="351467a60f358733"] {
-//   content: url('https://github.com/rekceq/becker/blob/v5/content/file_pile/img/kakuji_logo_light.png?raw=true');
-// }
-
-// /* In your dark theme definition */
-// [saved-theme="dark"] [data-node-id="351467a60f358733"] {
-//   content: url('https://github.com/rekceq/becker/blob/v5/content/file_pile/img/kakuji_logo_dark.png?raw=true');
-// }
-
-
-// .canvas-node-content p a img {
-//   pointer-events: auto; /* Re-enables clicking inside individual nodes (like links) */
-// }
-
-//no drag mode
-// .canvas-container {
-//   pointer-events: none; // Disables all clicks, pans, and zooms
-//   user-select: none;     // Prevents text selection
-//   cursor: default;       // Changes mouse to default pointer
-// }
-
 .popover-hint,
 .canvas-node {
   border: 0px;
@@ -120,56 +83,6 @@ code {
   margin-right: +8px;
   margin-bottom: 0px;
 }
-
-
-
-// .canvas-node-content p a img {
-//   border-radius: 0px;
-//   transition: filter 0.3s ease; // Smooth animation for the hover effect
-
-//   &:hover {
-//     //filter: brightness(80%) blur(1.2px); // Adjust values to get your desired effect
-//   filter: sepia(0%) 
-//           /* Step 2: Shift the color wheel to your target hue (e.g., 190deg for blue) */
-//           hue-rotate(40deg) 
-//           /* Step 3: Boost or lower the intensity of the new tint color */
-//           saturate(130%) 
-//           /* Step 4: Adjust the overall lighting of the image if needed */
-//           brightness(100%);
-//   }
-// }
-
-// [data-slug="home.canvas"] .canvas-container {
-//   //background-color: #000055;
-//   #quartz-body {
-//     position: relative;
-//   }
-//   // Add your image as an overlay
-//   &::before {
-//     content: "";
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     width: 100%;
-//     height: 100%;
-//     background-image: url("file_pile/img/fg0_dark.gif"), url("file_pile/img/fg0_dark.png");;
-//     z-index: 0; // Ensures it displays above the canvas
-//     pointer-events: none; // Allows interaction with the canvas underneath
-//   }
-// }
-
-// [data-slug="home.canvas"] .canvas-container {
-//   background-image: url("file_pile/img/fg0_dark.gif");
-// }
-
-// // Target a specific note (e.g., content/projects/my-game.md)
-// [data-slug="test.canvas"] .canvas-container {
-//   background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-// }
-
-
-
-//changes node content image by id
 
 [saved-theme="dark"] [data-node-id^="th"] .canvas-node-content p a img {
   content: url("file_pile/img/themed/logo_dark.png");
@@ -279,37 +192,3 @@ code {
   transition: opacity 0.3s ease-in-out;
   opacity: 1;
 }
-
-// .canvas-node{
-//   transition: background-color 0.3s ease; // Smooth animation for the hover effect
-
-//   &:hover {
-//     //filter: brightness(80%) blur(1.2px); // Adjust values to get your desired effect
-//     background-color: #ff0055;
-//   }
-// }
-
-
-
-
-
-
-
-
-// /* Bottom Background Layer */
-// .page-container::before {
-//   content: "";
-//   position: absolute;
-//   top: 0; left: 0; right: 0; bottom: 0;
-//   background-image: url('bottom-image.jpg');
-//   z-index: -2; /* Lowest layer */
-// }
-
-// /* Top Background Layer */
-// .page-container::after {
-//   content: "";
-//   position: absolute;
-//   top: 0; left: 0; right: 0; bottom: 0;
-//   background-image: url('top-image.png');
-//   z-index: -1; /* Sits above ::before, but behind text content */
-// }
