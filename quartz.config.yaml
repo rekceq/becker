@@ -18,8 +18,8 @@ configuration:
     typography:
       #title: Astloch
       header: Astloch
-      body: Jetbrains Mono
-      code: Jetbrains Mono
+      body: Play
+      code: Play
     colors:
       lightMode:
         light: "#9f9f9f" # background
