@@ -1,10 +1,10 @@
 {
 	"nodes":[
 		{"id":"5b26d7efc7dd631a","type":"text","text":"∅Built with [Obsidian](https://obsidian.md), [Quartz](https://quartz.jzhao.xyz) & [CSS](https://www.w3.org/Style/CSS/Overview.en.html)orcery.","x":-20,"y":340,"width":240,"height":60},
-		{"id":"8d345c2be107cd65","type":"text","text":"![](file_pile/img/themed/_css_dark.png)","x":100,"y":400,"width":60,"height":60},
-		{"id":"de55f174efb873e7","type":"text","text":"[![](file_pile/img/themed/ghub_dark.png)](https://github.com/rekceq/becker)","x":160,"y":400,"width":60,"height":60},
-		{"id":"e55761a0b9514d29","type":"text","text":"![](file_pile/img/themed/obsd_dark.png)","x":-20,"y":400,"width":60,"height":60},
-		{"id":"4509f036362c11fe","type":"text","text":"![](file_pile/img/themed/qrtz_dark.png)","x":40,"y":400,"width":60,"height":60},
+		{"id":"bt08d345c2be107cd65","type":"text","text":"![](file_pile/img/themed/_css_dark.png)","x":100,"y":400,"width":60,"height":60},
+		{"id":"bt1de55f174efb873e7","type":"text","text":"[![](file_pile/img/themed/ghub_dark.png)](https://github.com/rekceq/becker)","x":160,"y":400,"width":60,"height":60},
+		{"id":"bt2e55761a0b9514d29","type":"text","text":"![](file_pile/img/themed/obsd_dark.png)","x":-20,"y":400,"width":60,"height":60},
+		{"id":"bt34509f036362c11fe","type":"text","text":"![](file_pile/img/themed/qrtz_dark.png)","x":40,"y":400,"width":60,"height":60},
 		{"id":"thgifmain99a6fd9655165d29","type":"text","text":"[![](file_pile/img/themed/logo_dark.png)](index)\n","x":-20,"y":-320,"width":240,"height":340}
 	],
 	"edges":[]

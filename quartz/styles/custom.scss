@@ -61,14 +61,6 @@ code {
   font-size: 1rem; /* Adjusts code text */
 }
 
-// $base-url: "file_pile/img/";
-// $file-name: "background.jpg";
-
-// .hero-section {
-//   // Compiles to: url("https://example.combackground.jpg")
-//   background-image: url("#{$base-url}#{$file-name}"); 
-// }
-
 .popover-hint,
 .canvas-node {
   border: 0px;
@@ -133,7 +125,7 @@ code {
   }
 }
 
-[saved-theme="light"] [data-node-id^="th"][data-node-id^="th"] .canvas-node-content p a img {
+[saved-theme="light"] [data-node-id^="th"] .canvas-node-content p a img {
   content: url("file_pile/img/themed/logo_light.png");
 }
 
@@ -191,4 +183,36 @@ code {
 .canvas-container:has([data-node-id^="thgifmain"] .canvas-node-content:hover)::after {
   transition: opacity 0.3s ease-in-out;
   opacity: 1;
+}
+
+[saved-theme="dark"] [data-node-id^="bt0"] .canvas-node-content img{
+  content: url("file_pile/img/themed/_css_dark.png")
+}
+
+[saved-theme="light"] [data-node-id^="bt0"] .canvas-node-content img{
+  content: url("file_pile/img/themed/_css_light.png")
+}
+
+[saved-theme="dark"] [data-node-id^="bt1"] .canvas-node-content img{
+  content: url("file_pile/img/themed/ghub_dark.png")
+}
+
+[saved-theme="light"] [data-node-id^="bt1"] .canvas-node-content img{
+  content: url("file_pile/img/themed/ghub_light.png")
+}
+
+[saved-theme="dark"] [data-node-id^="bt2"] .canvas-node-content img{
+  content: url("file_pile/img/themed/obsd_dark.png")
+}
+
+[saved-theme="light"] [data-node-id^="bt2"] .canvas-node-content img{
+  content: url("file_pile/img/themed/obsd_light.png")
+}
+
+[saved-theme="dark"] [data-node-id^="bt3"] .canvas-node-content img{
+  content: url("file_pile/img/themed/qrtz_dark.png")
+}
+
+[saved-theme="light"] [data-node-id^="bt3"] .canvas-node-content img{
+  content: url("file_pile/img/themed/qrtz_light.png")
 }
