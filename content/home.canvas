@@ -5,7 +5,7 @@
 		{"id":"bt1de55f174efb873e7","type":"text","text":"[![](file_pile/img/themed/ghub_dark.png)](https://github.com/rekceq/becker)","x":160,"y":400,"width":60,"height":60},
 		{"id":"bt2e55761a0b9514d29","type":"text","text":"![](file_pile/img/themed/obsd_dark.png)","x":-20,"y":400,"width":60,"height":60},
 		{"id":"bt34509f036362c11fe","type":"text","text":"![](file_pile/img/themed/qrtz_dark.png)","x":40,"y":400,"width":60,"height":60},
-		{"id":"thgifmain99a6fd9655165d29","type":"text","text":"[![](file_pile/img/themed/logo_dark.png)](index)\n","x":-20,"y":-320,"width":240,"height":240}
+		{"id":"thgifmain99a6fd9655165d29","type":"text","text":"[![](file_pile/img/themed/logo_dark.png)](pixel_art.canvas)\n","x":-20,"y":-340,"width":240,"height":240}
 	],
 	"edges":[]
 }
