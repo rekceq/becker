@@ -22,15 +22,15 @@ configuration:
       code: Play
     colors:
       lightMode:
-        light: "#9f9f9f" # background
-        lightgray: "#0000aa00"
-        gray: "#b86962"
-        darkgray: "#883932"
-        dark: "#574200"
-        secondary: "#40318d"
-        tertiary: "#883932"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#000055" # background
+        lightgray: "#0000aa00" #button highlights / panel lines
+        gray: "#5500ff" # search text / graph highlighted lines
+        darkgray: "#aaaaff" # body text / icons / highlighted code
+        dark: "#aaaaff" # titles / explorer links / code text
+        secondary: "#aa55ff" #tags / links / active graph node / explore folders
+        tertiary: "#ff0055" #active explorer tabs / targeted links / graph tags
+        highlight: "#00005500"
+        textHighlight: "#0000aa50"
       darkMode:
         light: "#000055" # background
         lightgray: "#0000aa00" #button highlights / panel lines
@@ -206,7 +206,7 @@ plugins:
       position: left
       priority: 10
   - source: github:quartz-community/darkmode
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 30

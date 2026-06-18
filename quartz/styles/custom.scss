@@ -2,6 +2,10 @@
 
 // // put your custom CSS here!
 
+.html{
+  saved-theme: "dark"; 
+}
+
 //change canvas card background fill
 .canvas-node {
   background-color: var(--highlight);
@@ -76,11 +80,60 @@ code {
   margin-bottom: 0px;
 }
 
-[saved-theme="dark"] [data-node-id^="th"] .canvas-node-content p a img {
-  content: url("file_pile/img/themed/logo_dark.png");
-}
+// [saved-theme="dark"] [data-node-id^="th"] .canvas-node-content p a img {
+//   content: url("file_pile/img/themed/logo_dark.png");
+// }
 
-[saved-theme="dark"] [data-slug="home.canvas"] .canvas-container {
+// [saved-theme="dark"] [data-slug="home.canvas"] .canvas-container {
+//   &::before { //before nodes on canvas
+//     content: "";
+//     opacity: 0;
+//     position: absolute;
+//     transition: background-image 0.3s ease-in-out;
+//     background-position: center;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     background-image: url("file_pile/img/themed/fg0_dark.png");;
+//     z-index: 0; // Ensures it displays above the canvas
+//     pointer-events: none; // Allows interaction with the canvas underneath
+//   }
+
+//   &::after { //after nodes on canvas
+//     content: "";
+//     opacity: 0;
+//     position: absolute;
+//     transition: background-image 0.3s ease-in-out;
+//     background-position: center;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     background-image: url("file_pile/img/themed/fg0_dark.gif");
+//     z-index: 1; // Ensures it displays above the canvas
+//     pointer-events: none; // Allows interaction with the canvas underneath
+//   }
+// }
+
+// [saved-theme="dark"] [data-slug="home.canvas"] .canvas-node-content p a img {
+//   border-radius: 0px;
+//   transition: filter 0.3s ease; // Smooth animation for the hover effect
+
+//   &:hover {
+//     //filter: brightness(80%) blur(1.2px); // Adjust values to get your desired effect
+//     filter:sepia(0%) 
+//           hue-rotate(240deg) 
+//           saturate(100%) 
+//           brightness(25%);
+//   }
+// }
+
+// [data-node-id^="th"] .canvas-node-content p a img {
+//   content: url("file_pile/img/themed/logo_light.png");
+// }
+
+[data-slug="home.canvas"] .canvas-container {
   &::before { //before nodes on canvas
     content: "";
     opacity: 0;
@@ -112,7 +165,7 @@ code {
   }
 }
 
-[saved-theme="dark"] [data-slug="home.canvas"] .canvas-node-content p a img {
+[data-slug="home.canvas"] .canvas-node-content p a img {
   border-radius: 0px;
   transition: filter 0.3s ease; // Smooth animation for the hover effect
 
@@ -122,56 +175,6 @@ code {
           hue-rotate(240deg) 
           saturate(100%) 
           brightness(25%);
-  }
-}
-
-[saved-theme="light"] [data-node-id^="th"] .canvas-node-content p a img {
-  content: url("file_pile/img/themed/logo_light.png");
-}
-
-[saved-theme="light"] [data-slug="home.canvas"] .canvas-container {
-  &::before { //before nodes on canvas
-    content: "";
-    opacity: 0;
-    position: absolute;
-    transition: background-image 0.3s ease-in-out;
-    background-position: center;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("file_pile/img/themed/fg0_light.gif");;
-    z-index: 0; // Ensures it displays above the canvas
-    pointer-events: none; // Allows interaction with the canvas underneath
-  }
-
-  &::after { //after nodes on canvas
-    content: "";
-    opacity: 0;
-    position: absolute;
-    transition: background-image 0.3s ease-in-out;
-    background-position: center;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("file_pile/img/themed/fg0_light.gif");
-    z-index: 1; // Ensures it displays above the canvas
-    pointer-events: none; // Allows interaction with the canvas underneath
-  }
-}
-
-[saved-theme="light"] [data-slug="home.canvas"] .canvas-node-content p a img {
-  border-radius: 0px;
-  transition: filter 0.3s ease; // Smooth animation for the hover effect
-
-  &:hover {
-    //filter: brightness(80%) blur(1.2px); // Adjust values to get your desired effect
-    filter:sepia(0%) 
-          hue-rotate(240deg) 
-          saturate(100%) 
-          brightness(25%);
-          opacity: 0;
   }
 }
 
@@ -185,34 +188,34 @@ code {
   opacity: 1;
 }
 
-[saved-theme="dark"] [data-node-id^="bt0"] .canvas-node-content img{
-  content: url("file_pile/img/themed/_css_dark.png")
-}
+// [saved-theme="dark"] [data-node-id^="bt0"] .canvas-node-content img{
+//   content: url("file_pile/img/themed/_css_dark.png")
+// }
 
-[saved-theme="light"] [data-node-id^="bt0"] .canvas-node-content img{
-  content: url("file_pile/img/themed/_css_light.png")
-}
+// [saved-theme="light"] [data-node-id^="bt0"] .canvas-node-content img{
+//   content: url("file_pile/img/themed/_css_light.png")
+// }
 
-[saved-theme="dark"] [data-node-id^="bt1"] .canvas-node-content img{
-  content: url("file_pile/img/themed/ghub_dark.png")
-}
+// [saved-theme="dark"] [data-node-id^="bt1"] .canvas-node-content img{
+//   content: url("file_pile/img/themed/ghub_dark.png")
+// }
 
-[saved-theme="light"] [data-node-id^="bt1"] .canvas-node-content img{
-  content: url("file_pile/img/themed/ghub_light.png")
-}
+// [saved-theme="light"] [data-node-id^="bt1"] .canvas-node-content img{
+//   content: url("file_pile/img/themed/ghub_light.png")
+// }
 
-[saved-theme="dark"] [data-node-id^="bt2"] .canvas-node-content img{
-  content: url("file_pile/img/themed/obsd_dark.png")
-}
+// [saved-theme="dark"] [data-node-id^="bt2"] .canvas-node-content img{
+//   content: url("file_pile/img/themed/obsd_dark.png")
+// }
 
-[saved-theme="light"] [data-node-id^="bt2"] .canvas-node-content img{
-  content: url("file_pile/img/themed/obsd_light.png")
-}
+// [saved-theme="light"] [data-node-id^="bt2"] .canvas-node-content img{
+//   content: url("file_pile/img/themed/obsd_light.png")
+// }
 
-[saved-theme="dark"] [data-node-id^="bt3"] .canvas-node-content img{
-  content: url("file_pile/img/themed/qrtz_dark.png")
-}
+// [saved-theme="dark"] [data-node-id^="bt3"] .canvas-node-content img{
+//   content: url("file_pile/img/themed/qrtz_dark.png")
+// }
 
-[saved-theme="light"] [data-node-id^="bt3"] .canvas-node-content img{
-  content: url("file_pile/img/themed/qrtz_light.png")
-}
+// [saved-theme="light"] [data-node-id^="bt3"] .canvas-node-content img{
+//   content: url("file_pile/img/themed/qrtz_light.png")
+// }
