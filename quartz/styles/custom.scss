@@ -2,14 +2,10 @@
 
 // // put your custom CSS here!
 
-.html{
-  saved-theme: "dark"; 
-}
-
 //change canvas card background fill
 .canvas-node {
   background-color: var(--highlight);
-  border-radius: 8px;
+  border-radius: 0px;
   overflow: hidden;
 }
 
