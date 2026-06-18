@@ -188,13 +188,9 @@ code {
   opacity: 1;
 }
 
-.canvas-container{
+[data-slug="pixel_art.canvas"] .canvas-node{
   pointer-events: none;
 } 
-
-.canvas-node-content a p{
-  pointer-events: auto;
-}
 
 
 // [saved-theme="dark"] [data-node-id^="bt0"] .canvas-node-content img{
