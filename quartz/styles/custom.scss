@@ -91,7 +91,7 @@ code {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("file_pile/img/fg0_dark.png");;
+    background-image: url("file_pile/img/themed/fg0_dark.png");;
     z-index: 0; // Ensures it displays above the canvas
     pointer-events: none; // Allows interaction with the canvas underneath
   }
@@ -106,7 +106,7 @@ code {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("file_pile/img/fg0_dark.gif");
+    background-image: url("file_pile/img/themed/fg0_dark.gif");
     z-index: 1; // Ensures it displays above the canvas
     pointer-events: none; // Allows interaction with the canvas underneath
   }
@@ -140,7 +140,7 @@ code {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("file_pile/img/fg0_light.gif");;
+    background-image: url("file_pile/img/themed/fg0_light.gif");;
     z-index: 0; // Ensures it displays above the canvas
     pointer-events: none; // Allows interaction with the canvas underneath
   }
@@ -155,7 +155,7 @@ code {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("file_pile/img/fg0_light.gif");
+    background-image: url("file_pile/img/themed/fg0_light.gif");
     z-index: 1; // Ensures it displays above the canvas
     pointer-events: none; // Allows interaction with the canvas underneath
   }
