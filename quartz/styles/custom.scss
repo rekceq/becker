@@ -188,6 +188,15 @@ code {
   opacity: 1;
 }
 
+.canvas-container{
+  pointer-events: none;
+} 
+
+.canvas-node-content a p{
+  pointer-events: auto;
+}
+
+
 // [saved-theme="dark"] [data-node-id^="bt0"] .canvas-node-content img{
 //   content: url("file_pile/img/themed/_css_dark.png")
 // }
